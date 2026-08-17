@@ -53,7 +53,7 @@ const DataVisualizationReporting: React.FC = () => {
   const filteredTools = selectedCategory === "All" ? tools : tools.filter(t => t.category === selectedCategory);
   const navigate = useNavigate();
 
-  const DataVisualizationImg = "https://assets.channeliq.ai/invictus-landing/Solutions/Data%20Visualization.png";
+  const DataVisualizationImg = "/placeholders/team-collaboration.jpg";
 
   return (
     <>

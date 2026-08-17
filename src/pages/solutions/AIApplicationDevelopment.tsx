@@ -52,7 +52,7 @@ const whyUs = [
 const AIApplicationDevelopment: React.FC = () => {
   const [showContactForm, setShowContactForm] = useState(false);
   const navigate = useNavigate();
-  const AIApplicationDevelopmentImg = "https://assets.channeliq.ai/invictus-landing/Solutions/AIApplicationDevelopment.png";
+  const AIApplicationDevelopmentImg = "/placeholders/conference-shoptalk.jpg";
   return (
     <>
       <Seo 

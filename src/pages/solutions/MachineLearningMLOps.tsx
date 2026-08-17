@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 import Navbar from "@/components/layout/Navbar";
 import Seo from "@/components/Seo";
 
-const MachineLearningMLOpsImg = "https://assets.channeliq.ai/invictus-landing/Solutions/MachineLearning(MLOps).png";
+const MachineLearningMLOpsImg = "/placeholders/team-collaboration.jpg";
 
 const MachineLearningMLOps: React.FC = () => {
   const [showContactForm, setShowContactForm] = useState(false);

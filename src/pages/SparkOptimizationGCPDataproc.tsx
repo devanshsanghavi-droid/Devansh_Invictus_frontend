@@ -57,7 +57,7 @@ const SparkOptimizationGCPDataproc: React.FC = () => {
           {/* Blog Image */}
           <div className="w-full max-w-5xl mx-auto ml-4 sm:ml-8 lg:ml-24">
             <img
-              src="https://assets.channeliq.ai/invictus-landing/Solutions/SparkOptimization.png"
+              src="/placeholders/partnership-shoptalk.jpg"
               alt="Spark Optimization Techniques in GCP Dataproc"
               width={896}
               height={488}

@@ -68,7 +68,7 @@ const EngineeringQualityProductivity: React.FC = () => {
   const filteredTools = selectedCategory === "All" ? tools : tools.filter(t => t.category === selectedCategory);
   const navigate = useNavigate();
 
-  const EngineeringQualityProductivityImg = "https://assets.channeliq.ai/invictus-landing/Solutions/EngineeringQuality&Productivity.png";
+  const EngineeringQualityProductivityImg = "/placeholders/conference-shoptalk.jpg";
 
   return (
     <>

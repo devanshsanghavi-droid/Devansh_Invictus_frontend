@@ -46,7 +46,7 @@ const FoodDistributionCaseStudy: React.FC = () => {
           {/* Blog Image */}
           <div className="w-full max-w-5xl mx-auto ml-4 sm:ml-8 lg:ml-24">
             <img
-              src="https://assets.channeliq.ai/invictus-landing/Solutions/CaseStudy.png"
+              src="/placeholders/team-collaboration.jpg"
               alt="Data Analytics Revolutionizing Food Distribution"
               width={896}
               height={488}

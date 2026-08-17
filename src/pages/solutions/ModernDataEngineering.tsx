@@ -8,7 +8,7 @@ import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "@/
 import Navbar from "@/components/layout/Navbar";
 import Seo from "@/components/Seo";
 
-const DataEngineeringImg = "https://assets.channeliq.ai/invictus-landing/Solutions/DataEngineering.png";
+const DataEngineeringImg = "/placeholders/conference-shoptalk.jpg";
 
 const techStack = [
   { name: "AWS", category: "Cloud", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" },

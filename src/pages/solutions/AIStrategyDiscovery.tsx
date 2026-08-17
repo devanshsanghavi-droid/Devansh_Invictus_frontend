@@ -64,7 +64,7 @@ const whyUs = [
 const AIStrategyDiscovery: React.FC = () => {
   const [showContactForm, setShowContactForm] = useState(false);
   const navigate = useNavigate();
-  const AIStrategyDiscoveryImg = "https://assets.channeliq.ai/invictus-landing/Solutions/AIStrategy&Discovery.png";
+  const AIStrategyDiscoveryImg = "/placeholders/brand-kit.jpg";
   return (
     <>
       <Seo 

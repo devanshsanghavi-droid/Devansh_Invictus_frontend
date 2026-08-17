@@ -62,7 +62,7 @@ const Retail: React.FC = () => {
   const [showContactForm, setShowContactForm] = React.useState(false);
   const [selectedCategory, setSelectedCategory] = React.useState("All");
   const filteredTech = selectedCategory === "All" ? techStack : techStack.filter(t => t.category === selectedCategory);
-  const RetailImg = "https://assets.channeliq.ai/invictus-landing/Solutions/Retail.png";
+  const RetailImg = "/placeholders/partnership-shoptalk.jpg";
   return (
     <>
       <Seo 

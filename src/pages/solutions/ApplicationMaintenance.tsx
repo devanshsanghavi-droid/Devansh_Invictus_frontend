@@ -61,7 +61,7 @@ const ApplicationMaintenance: React.FC = () => {
   const [showContactForm, setShowContactForm] = useState(false);
   const filteredTools = selectedCategory === "All" ? tools : tools.filter(t => t.category === selectedCategory);
 
-  const ApplicationMaintenanceImg = "https://assets.channeliq.ai/invictus-landing/Solutions/ApplicationMaintenance.png";
+  const ApplicationMaintenanceImg = "/placeholders/partnership-shoptalk.jpg";
 
   return (
     <>

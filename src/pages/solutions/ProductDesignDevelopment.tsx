@@ -4,8 +4,8 @@ import { Palette, Cloud, Layers, Settings, Zap, ArrowRight, Server, Code, Databa
 import { useNavigate } from "react-router-dom";
 import Navbar from "@/components/layout/Navbar";
 import Seo from "@/components/Seo";
-const ProductDesignDevelopmentImg = "https://assets.channeliq.ai/invictus-landing/Solutions/ProductDesign&Development.png";
-const ApplicationMaintenanceImg = "https://assets.channeliq.ai/invictus-landing/Solutions/ApplicationMaintenance.png";
+const ProductDesignDevelopmentImg = "/placeholders/brand-kit.jpg";
+const ApplicationMaintenanceImg = "/placeholders/team-collaboration.jpg";
 
 // --- Product Design & Development Data ---
 const designDevTools = [

@@ -64,7 +64,7 @@ const whyUs = [
 const AgenticAIImplementation: React.FC = () => {
   const [showContactForm, setShowContactForm] = useState(false);
   const navigate = useNavigate();
-  const AgenticAIImplementationImg = "https://assets.channeliq.ai/invictus-landing/Solutions/AgenticAIImplementation.png";
+  const AgenticAIImplementationImg = "/placeholders/team-collaboration.jpg";
   return (
     <>
       <Seo 

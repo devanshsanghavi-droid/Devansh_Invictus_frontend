@@ -21,7 +21,7 @@ const HARDCODED_BLOGS: BlogPost[] = [
     author: "Nirjar Sanghavi, CEO",
     category: "Analytics",
     summary: "In the complex and fast-paced world of food distribution, companies face enormous pressure to deliver fresh, safe, and high-quality products on time while managing rising costs, fluctuating demand, and increasingly strict sustainability standards.",
-    featured_image_url: "https://assets.channeliq.ai/invictus-landing/Solutions/CaseStudy.png",
+    featured_image_url: "/placeholders/brand-kit.jpg",
     published_at: "2025-01-20T00:00:00Z",
     status: "published"
   },
@@ -32,7 +32,7 @@ const HARDCODED_BLOGS: BlogPost[] = [
     author: "Nirjar Sanghavi, CEO",
     category: "AI",
     summary: "Optimizing Apache Spark on Google Cloud Platform's Dataproc can lead to significant cost savings and performance improvements. This guide explores best practices for cluster configuration and job tuning.",
-    featured_image_url: "https://assets.channeliq.ai/invictus-landing/Solutions/SparkOptimization.png",
+    featured_image_url: "/placeholders/team-collaboration.jpg",
     published_at: "2025-01-21T00:00:00Z",
     status: "published"
   }

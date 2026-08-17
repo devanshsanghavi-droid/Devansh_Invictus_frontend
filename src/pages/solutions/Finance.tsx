@@ -4,7 +4,7 @@ import AnimatedBackground from "@/components/ui/AnimatedBackground";
 import Navbar from "@/components/layout/Navbar";
 import Seo from "@/components/Seo";
 
-const FinanceImg = "https://assets.channeliq.ai/invictus-landing/Solutions/Finance.png";
+const FinanceImg = "/placeholders/brand-kit.jpg";
 
 const financeCapabilities = [
   { icon: TrendingUp, title: "Data Integration & Analytics", desc: "Unify financial data from multiple systems and generate actionable insights." },

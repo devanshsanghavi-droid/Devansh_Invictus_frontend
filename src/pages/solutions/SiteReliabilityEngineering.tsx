@@ -66,7 +66,7 @@ const SiteReliabilityEngineering: React.FC = () => {
   const filteredTools = selectedCategory === "All" ? tools : tools.filter(t => t.category === selectedCategory);
   const navigate = useNavigate();
 
-  const SiteReliabilityEngineeringImg = "https://assets.channeliq.ai/invictus-landing/Solutions/SiteReliabilityEngineering.png";
+  const SiteReliabilityEngineeringImg = "/placeholders/conference-shoptalk.jpg";
 
   return (
     <>

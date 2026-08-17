@@ -67,7 +67,7 @@ const Solutions: React.FC = () => {
         <div className="relative z-10 w-full max-w-[1920px] mx-auto">
           {/* Hero Section */}
           <section className="px-8 py-20 max-md:px-5 max-md:py-12">
-            <div className="max-w-4xl mx-auto text-center  border border-[#2563EB]/20 rounded-2xl shadow-2xl p-8">
+            <div className="max-w-4xl mx-auto text-center bg-slate-100 border border-slate-300 rounded-2xl shadow-2xl p-8">
               <h1 className="text-6xl font-bold text-slate-900 mb-6 max-md:text-4xl max-sm:text-3xl font-['Lexend']">
                 Solutions
               </h1>
@@ -87,7 +87,7 @@ const Solutions: React.FC = () => {
                     <Link
                       key={index}
                       to={solution.href}
-                      className="group relative bg-slate-50/95 border border-[#2563EB]/20 rounded-xl p-6 hover:bg-[#2563EB]/10 hover:border-[#2563EB]/40 transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl"
+                      className="group relative bg-slate-100 border border-slate-300 rounded-xl p-6 hover:bg-slate-200/70 hover:border-[#2563EB]/50 transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl"
                     >
                       <div className="absolute top-4 right-4">
                         {solution.featured && (
@@ -102,7 +102,7 @@ const Solutions: React.FC = () => {
                         )}
                       </div>
                       <div className="w-12 h-12 bg-gradient-to-br from-[#2563EB] to-[#3B82F6] rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                        <IconComponent className="w-6 h-6 text-slate-900" />
+                        <IconComponent className="w-6 h-6 text-white" />
                       </div>
                       <h3 className="text-xl font-semibold text-slate-900 mb-3 font-['Lexend'] group-hover:text-[#2563EB] transition-colors">
                         {solution.title}
@@ -122,7 +122,7 @@ const Solutions: React.FC = () => {
 
           {/* CTA Section */}
           <section className="px-8 py-16 max-md:px-5">
-            <div className="max-w-4xl mx-auto text-center bg-slate-50/95 border border-[#2563EB]/20 rounded-2xl p-8 shadow-lg">
+            <div className="max-w-4xl mx-auto text-center bg-slate-100 border border-slate-300 rounded-2xl p-8 shadow-lg">
               <h2 className="text-3xl font-bold text-slate-900 mb-4 font-['Lexend']">
                 Need a Custom Solution?
               </h2>

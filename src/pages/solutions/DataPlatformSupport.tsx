@@ -62,7 +62,7 @@ const DataPlatformSupport: React.FC = () => {
   const [showContactForm, setShowContactForm] = useState(false);
   const filteredTools = selectedCategory === "All" ? tools : tools.filter(t => t.category === selectedCategory);
   const navigate = useNavigate();
-  const DataPlatformSupportImg = "https://assets.channeliq.ai/invictus-landing/Solutions/DataPlatformSupport.png";
+  const DataPlatformSupportImg = "/placeholders/brand-kit.jpg";
 
   return (
     <>

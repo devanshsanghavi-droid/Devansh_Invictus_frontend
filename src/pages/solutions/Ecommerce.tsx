@@ -4,7 +4,7 @@ import AnimatedBackground from "@/components/ui/AnimatedBackground";
 import Navbar from "@/components/layout/Navbar";
 import Seo from "@/components/Seo";
 
-const EcommerceImg = "https://assets.channeliq.ai/invictus-landing/Solutions/Ecommerce.png";
+const EcommerceImg = "/placeholders/partnership-shoptalk.jpg";
 
 const ecommerceCapabilities = [
   { icon: TrendingUp, title: "Conversion Optimization", desc: "Funnel auditing, A/B testing, checkout optimization, and UX enhancements to maximize conversions." },
