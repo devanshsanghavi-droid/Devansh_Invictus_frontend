@@ -51,12 +51,12 @@ const UnderstandingHiringProcess: React.FC = () => {
     {
       icon: <RefreshCw className="w-6 h-6" />,
       title: "If I don't get selected, can I apply again?",
-      content: "Yes, absolutely. We encourage you to apply again — either for the same type of role at a later time or for a new opportunity that better matches your strengths."
+      content: "Yes, absolutely. We encourage you to apply again - either for the same type of role at a later time or for a new opportunity that better matches your strengths."
     },
     {
       icon: <FileText className="w-6 h-6" />,
-      title: "I applied before but wasn't selected. A similar role is open now — should I reapply?",
-      content: "Yes — each job opening requires a new application. We recommend using your existing username and password to streamline the process."
+      title: "I applied before but wasn't selected. A similar role is open now - should I reapply?",
+      content: "Yes - each job opening requires a new application. We recommend using your existing username and password to streamline the process."
     },
     {
       icon: <Mail className="w-6 h-6" />,

@@ -28,10 +28,10 @@ const tools = [
 const toolCategories = ["All", "BI Tools", "Data Layer", "Visualization Libraries", "Dashboard Frameworks", "Embedded Analytics"];
 
 const capabilities = [
-  { icon: BarChart3, title: "Dynamic Dashboard Development", desc: "Design and implement custom dashboards that provide real-time visibility into performance metrics, tailored to your audience — executives, analysts, or operational teams." },
+  { icon: BarChart3, title: "Dynamic Dashboard Development", desc: "Design and implement custom dashboards that provide real-time visibility into performance metrics, tailored to your audience - executives, analysts, or operational teams." },
   { icon: Users, title: "Self-Service BI Enablement", desc: "Empower non-technical users with drag-and-drop tools and guided analytics to explore data independently and make informed decisions without engineering support." },
   { icon: Settings, title: "KPI & Metric Frameworks", desc: "Define meaningful business metrics, set benchmarks, and create consistent, trustworthy KPIs across departments using metric layers and governed definitions." },
-  { icon: Cloud, title: "Cross-Platform Integration", desc: "Pull data from multiple sources — databases, APIs, cloud tools — into unified visual layers for end-to-end business visibility." },
+  { icon: Cloud, title: "Cross-Platform Integration", desc: "Pull data from multiple sources - databases, APIs, cloud tools - into unified visual layers for end-to-end business visibility." },
   { icon: Layers, title: "Interactive Visual Storytelling", desc: "Go beyond static charts with filters, drill-downs, and user-friendly narratives that let users explore the 'why' behind the numbers." },
   { icon: Zap, title: "Performance Optimization", desc: "Ensure fast load times and low latency for dashboards handling large datasets and real-time data streams." },
 ];
@@ -152,7 +152,7 @@ const DataVisualizationReporting: React.FC = () => {
                 <section className="w-full flex flex-col items-center justify-center py-2 px-6 max-w-7xl mx-auto">
           <div className="w-full bg-white rounded-3xl p-8 md:p-12 flex flex-col gap-4">
             <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-2 unbounded">Make Data Make Sense</h2>
-            <div className="text-base md:text-lg text-slate-600 mb-6">We help you unlock the full potential of your data by delivering visually compelling, real-time dashboards and self-service reporting tools. Our visualizations bring clarity to complexity — enabling teams to spot trends, track KPIs, and act on insights without delay.<br/>From executive dashboards to operational reports, we craft solutions that are not only insightful but also beautiful, responsive, and aligned with your business goals.
+            <div className="text-base md:text-lg text-slate-600 mb-6">We help you unlock the full potential of your data by delivering visually compelling, real-time dashboards and self-service reporting tools. Our visualizations bring clarity to complexity - enabling teams to spot trends, track KPIs, and act on insights without delay.<br/>From executive dashboards to operational reports, we craft solutions that are not only insightful but also beautiful, responsive, and aligned with your business goals.
             </div>
           </div>
         </section>

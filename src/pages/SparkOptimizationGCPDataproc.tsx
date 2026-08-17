@@ -72,8 +72,8 @@ const SparkOptimizationGCPDataproc: React.FC = () => {
           <p className="text-base sm:text-lg text-slate-900 font-['DM_Sans'] leading-relaxed">
             Google Cloud Dataproc offers a managed, scalable Apache Spark
             environment that simplifies large-scale data processing. But to
-            fully harness its power—while controlling cost and maximizing
-            speed—you need savvy optimization techniques. In this guide, we'll
+            fully harness its power, while controlling cost and maximizing
+            speed, you need savvy optimization techniques. In this guide, we'll
             explore best practices for Spark tuning specifically tailored to
             Dataproc, bolstered by real-world examples and visual aids.
           </p>
@@ -170,7 +170,7 @@ const SparkOptimizationGCPDataproc: React.FC = () => {
                   <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 text-[#2563EB] mt-1 flex-shrink-0" />
                   <span>
                     Spark's dynamic allocation smartly scales executors up/down
-                    based on workload—enabled by default on Dataproc.
+                    based on workload, enabled by default on Dataproc.
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
@@ -233,13 +233,13 @@ const SparkOptimizationGCPDataproc: React.FC = () => {
                     <code className="bg-[#2563EB]/20 px-2 py-1 rounded">
                       spark.default.parallelism
                     </code>
-                    : same guideline—3× vCPUs to balance load across tasks.
+                    : same guideline, 3× vCPUs to balance load across tasks.
                   </span>
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-[#2563EB] font-bold">•</span>
                   <span>
-                    Avoid too many small files—they slow reads dramatically.
+                    Avoid too many small files, they slow reads dramatically.
                     Target larger chunk sizes (256MB–512MB).
                   </span>
                 </li>
@@ -323,7 +323,7 @@ const SparkOptimizationGCPDataproc: React.FC = () => {
                 <code className="bg-[#2563EB]/20 px-1 py-0.5 rounded">
                   upper()
                 </code>{" "}
-                from pyspark.sql.functions) instead of UDFs—they avoid
+                from pyspark.sql.functions) instead of UDFs, they avoid
                 serialization overhead and benefit from Catalyst optimization.
               </p>
             </div>
@@ -560,7 +560,7 @@ const SparkOptimizationGCPDataproc: React.FC = () => {
               Efficient Spark workloads on Dataproc combine smart cluster
               design, Spark-level tuning, data layout choices, and Dataproc's
               powerful features. By systematically applying these optimizations,
-              you achieve faster job times, better resource use, lower cost—and
+              you achieve faster job times, better resource use, lower cost, and
               a more resilient, scalable platform.
             </p>
           </div>

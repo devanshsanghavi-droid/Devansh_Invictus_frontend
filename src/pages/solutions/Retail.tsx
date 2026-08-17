@@ -98,7 +98,7 @@ const Retail: React.FC = () => {
               <div className="text-slate-900 text-3xl md:text-4xl font-semibold tracking-wide mb-4 md:mb-6 unbounded">Retail Solutions</div>
               <div className="text-[#1E40AF] text-xl md:text-2xl font-semibold tracking-wide mb-4 md:mb-6 unbounded">Smarter, Connected, and Personalized Retail</div>
               <div className="text-slate-800 text-base md:text-lg font-normal max-w-xl mb-6">
-                Transform your retail operations with real-time visibility, AI-driven insights, automation, and mobile-first experiences—delivering agility, personalization, and efficiency at every touchpoint.
+                Transform your retail operations with real-time visibility, AI-driven insights, automation, and mobile-first experiences, delivering agility, personalization, and efficiency at every touchpoint.
               </div>
               <div className="grid grid-cols-1 gap-4 w-full mt-auto">
                 <div className="bg-[#181515]/90 rounded-2xl p-4 text-slate-800 text-base font-medium text-center min-w-[240px] mx-auto">

@@ -6,7 +6,7 @@ import Navbar from "@/components/layout/Navbar";
 import Seo from "@/components/Seo";
 
 const automationCapabilities = [
-  { icon: Zap, title: "Workflow Automation", desc: "Digitize and streamline business workflows using tools like Zapier, Make (Integromat), or Camunda — across marketing, HR, finance, and sales." },
+  { icon: Zap, title: "Workflow Automation", desc: "Digitize and streamline business workflows using tools like Zapier, Make (Integromat), or Camunda - across marketing, HR, finance, and sales." },
   { icon: CheckCircle, title: "Robotic Process Automation (RPA)", desc: "Use bots to automate rule-based tasks like data entry, invoice processing, and report generation using platforms like UiPath, Automation Anywhere, or Power Automate." },
   { icon: Layers, title: "Low-Code & No-Code Integrations", desc: "Enable rapid workflow automation and app creation using platforms like Retool, OutSystems, and Glide without writing extensive code." },
   { icon: Cloud, title: "AI-Driven Process Intelligence", desc: "Analyze workflow data and recommend automation opportunities using AI and process mining tools." },
@@ -54,7 +54,7 @@ const DigitalAutomation: React.FC = () => {
             </div>
             <h2 className="text-2xl md:text-3xl text-[#1E40AF] font-semibold mb-6 font-['Lexend']">Automate Processes. Accelerate Growth.</h2>
             <p className="text-xl md:text-2xl text-slate-700 mb-10 font-['DM_Sans'] max-w-3xl mx-auto leading-relaxed">
-              We help businesses automate workflows, tasks, and operations — reducing manual effort, improving accuracy, and boosting speed through low-code, AI, and RPA-powered automation.
+              We help businesses automate workflows, tasks, and operations - reducing manual effort, improving accuracy, and boosting speed through low-code, AI, and RPA-powered automation.
             </p>
             <button className="bg-[#2563EB] hover:bg-[#1E40AF] text-white px-8 py-4 rounded-full font-semibold text-lg shadow-lg shadow-[#2563EB]/20 border-none focus:ring-2 focus:ring-[#2563EB]/50 transition-all duration-300">
               Explore Automation Opportunities
@@ -107,7 +107,7 @@ const DigitalAutomation: React.FC = () => {
         <section className="w-full py-20 px-6 bg-[#1a1a1a] relative overflow-hidden">
           <div className="max-w-3xl mx-auto text-center relative z-10">
             <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4 font-['Lexend']">Let Your Business Work Smarter, Not Harder</h2>
-            <p className="text-xl text-slate-700 mb-8 font-['DM_Sans']">Automate what's slowing you down — and scale what matters.</p>
+            <p className="text-xl text-slate-700 mb-8 font-['DM_Sans']">Automate what's slowing you down - and scale what matters.</p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
               <button className="bg-[#2563EB] hover:bg-[#1E40AF] text-white px-8 py-4 rounded-full font-semibold text-lg shadow-lg shadow-[#2563EB]/20 border-none focus:ring-2 focus:ring-[#2563EB]/50 transition-all duration-300">Explore Automation Opportunities</button>
               <button className="border-2 border-[#93C5FD] text-[#1E40AF] px-8 py-4 rounded-full font-semibold text-lg hover:bg-[#2563EB]/10 transition-all duration-300">Schedule a Discovery Session</button>

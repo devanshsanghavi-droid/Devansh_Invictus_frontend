@@ -49,7 +49,7 @@ const Whitepapers: React.FC = () => {
           <br />
           Explore our curated whitepapers on the frameworks, strategies, and systems that power modern enterprise data and AI.
           <br />
-          Written by our experts — for architects, engineers, and leaders who want to scale responsibly and intelligently.
+          Written by our experts - for architects, engineers, and leaders who want to scale responsibly and intelligently.
         </p>
 
         {/* Two Column Layout: Categories Sidebar + Content */}

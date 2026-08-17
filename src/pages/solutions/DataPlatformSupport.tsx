@@ -32,9 +32,9 @@ const toolCategories = ["All", "Data Warehouses", "Pipelines & Orchestration", "
 
 const capabilities = [
   { icon: Zap, title: "24/7 Monitoring & Alerting", desc: "Real-time observability into your data systems with automated alerts, anomaly detection, and root cause diagnostics." },
-  { icon: ArrowRight, title: "Incident Response & Resolution", desc: "Rapid response and resolution of data pipeline failures, slow queries, cloud outages, and system degradation — minimizing business disruption." },
+  { icon: ArrowRight, title: "Incident Response & Resolution", desc: "Rapid response and resolution of data pipeline failures, slow queries, cloud outages, and system degradation - minimizing business disruption." },
   { icon: Settings, title: "Performance Tuning", desc: "Continuously optimize pipelines, queries, and compute usage to reduce costs and improve throughput, latency, and availability." },
-  { icon: Layers, title: "Platform Maintenance & Upgrades", desc: "Apply platform patches, dependency upgrades, version migrations, and infrastructure hardening — with minimal downtime." },
+  { icon: Layers, title: "Platform Maintenance & Upgrades", desc: "Apply platform patches, dependency upgrades, version migrations, and infrastructure hardening - with minimal downtime." },
   { icon: Shield, title: "Security & Compliance Monitoring", desc: "Enforce policies around access, encryption, auditing, and compliance with standards like SOC2, HIPAA, GDPR." },
   { icon: Cloud, title: "Change Management & Deployment Support", desc: "Safely roll out updates and new features using CI/CD best practices, rollback plans, and version control." },
 ];
@@ -101,7 +101,7 @@ const DataPlatformSupport: React.FC = () => {
               <div className="text-slate-900 text-3xl md:text-4xl font-semibold tracking-wide mb-6 unbounded">Data Platform Support</div>
               <div className="text-[#1E40AF] text-xl md:text-2xl font-semibold tracking-wide mb-6 unbounded">End-to-End Support for Reliable, Scalable Data Systems</div>
               <div className="text-slate-800 text-base md:text-lg font-normal max-w-xl">
-                We manage and optimize your data infrastructure — from pipelines to platforms — ensuring always-on performance, security, and reliability.
+                We manage and optimize your data infrastructure - from pipelines to platforms - ensuring always-on performance, security, and reliability.
               </div>
             </div>
           </div>
@@ -160,7 +160,7 @@ const DataPlatformSupport: React.FC = () => {
                 <section className="w-full flex flex-col items-center justify-center py-2 px-6 max-w-7xl mx-auto">
           <div className="w-full bg-white rounded-3xl p-8 md:p-12 flex flex-col gap-4">
             <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-2 unbounded">Keep Your Data Operations Running Smoothly</h2>
-            <div className="text-base md:text-lg text-slate-600 mb-6">Your data platform is the foundation of your analytics, AI, and business intelligence. We ensure it stays fast, reliable, and resilient. Our expert teams provide 24/7 operational support, proactive monitoring, and continuous tuning — so you never miss a beat.<br/>From troubleshooting data issues to optimizing pipeline performance, we work as an extension of your team to ensure your data systems deliver consistent value and scale with your business.
+            <div className="text-base md:text-lg text-slate-600 mb-6">Your data platform is the foundation of your analytics, AI, and business intelligence. We ensure it stays fast, reliable, and resilient. Our expert teams provide 24/7 operational support, proactive monitoring, and continuous tuning - so you never miss a beat.<br/>From troubleshooting data issues to optimizing pipeline performance, we work as an extension of your team to ensure your data systems deliver consistent value and scale with your business.
             </div>
           </div>
         </section>
@@ -215,7 +215,7 @@ const DataPlatformSupport: React.FC = () => {
         <section className="w-full py-20 px-6  relative overflow-hidden">
           <div className="max-w-3xl mx-auto text-center relative z-10">
             <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4 font-['Lexend']">Let’s Keep Your Data Always-On</h2>
-            <p className="text-xl text-slate-700 mb-8 font-['DM_Sans']">Your business depends on reliable data operations — and we're here to make sure they stay that way.</p>
+            <p className="text-xl text-slate-700 mb-8 font-['DM_Sans']">Your business depends on reliable data operations - and we're here to make sure they stay that way.</p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
               <button className="border-2 border-[#93C5FD] text-[#1E40AF] px-8 py-4 rounded-xl font-semibold text-lg hover:bg-[#2563EB]/10 transition-all duration-300" onClick={() => navigate('/schedule-consultation')}>Explore Support Plans</button>
             </div>

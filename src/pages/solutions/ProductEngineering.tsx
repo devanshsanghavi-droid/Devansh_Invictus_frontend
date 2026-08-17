@@ -123,7 +123,7 @@ const ProductEngineering: React.FC = () => {
                   <h2 className="text-2xl md:text-3xl font-bold font-['Lexend'] text-slate-900">Product Design & Development</h2>
                 </div>
                 <p className="text-slate-700 font-['DM_Sans'] text-lg leading-relaxed mb-2">
-                  We turn ideas into scalable digital products through end-to-end design, development, and deployment—built for usability, performance, and growth. We deliver products that are user-centric, technically sound, and launch-ready.
+                  We turn ideas into scalable digital products through end-to-end design, development, and deployment, built for usability, performance, and growth. We deliver products that are user-centric, technically sound, and launch-ready.
                 </p>
               </div>
               {/* Application Maintenance */}
@@ -133,7 +133,7 @@ const ProductEngineering: React.FC = () => {
                   <h2 className="text-2xl md:text-3xl font-bold font-['Lexend'] text-slate-900">Application Maintenance</h2>
                 </div>
                 <p className="text-slate-700 font-['DM_Sans'] text-lg leading-relaxed mb-2">
-                  We deliver reliable application lifecycle management—ensuring stability, performance, and adaptability through continuous monitoring and enhancement. We help businesses stay agile, minimize risk, and maximize ROI. From performance monitoring to issue resolution and feature enhancements, our support team ensures your app stays reliable, up-to-date across devices and OS versions, and user-ready—24/7.
+                  We deliver reliable application lifecycle management, ensuring stability, performance, and adaptability through continuous monitoring and enhancement. We help businesses stay agile, minimize risk, and maximize ROI. From performance monitoring to issue resolution and feature enhancements, our support team ensures your app stays reliable, up-to-date across devices and OS versions, and user-ready, 24/7.
                 </p>
               </div>
               {/* Site Reliability Engineering */}

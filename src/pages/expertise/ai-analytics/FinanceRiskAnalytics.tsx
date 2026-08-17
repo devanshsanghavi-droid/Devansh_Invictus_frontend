@@ -26,7 +26,7 @@ const FinanceRiskAnalytics: React.FC = () => {
 
   const fraudRiskCapabilities = [
     { icon: CheckCircle, title: "Anomaly Detection Models", desc: "Use unsupervised and supervised ML to flag unusual transactions, returns, logins, or behavior patterns in real time." },
-    { icon: CheckCircle, title: "Custom Risk Scoring Engines", desc: "Assign dynamic risk scores to users, vendors, or transactions — factoring in historical trends, velocity, and intent." },
+    { icon: CheckCircle, title: "Custom Risk Scoring Engines", desc: "Assign dynamic risk scores to users, vendors, or transactions - factoring in historical trends, velocity, and intent." },
     { icon: CheckCircle, title: "Transaction & Return Fraud Monitoring", desc: "Identify patterns of abuse (e.g., wardrobing, repeat returns, coupon misuse) using rule-based and AI systems." },
     { icon: CheckCircle, title: "Bot & Abuse Detection", desc: "Flag scripted activity, fake accounts, and suspicious behavior using fingerprinting, velocity checks, and CAPTCHA alternatives." },
     { icon: CheckCircle, title: "Automated Alerts & Escalation Workflows", desc: "Trigger rule-based or ML-backed alerts to fraud teams, with audit trails and decision explainability." },
@@ -58,9 +58,9 @@ const FinanceRiskAnalytics: React.FC = () => {
         <motion.section initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }} className="w-full flex flex-col items-center justify-center py-24 px-6 bg-[#1a1a1a]">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-5xl md:text-6xl font-bold text-slate-900 mb-4 font-['Lexend']">Fraud & Risk Analytics</h1>
-            <h2 className="text-2xl md:text-3xl text-[#1E40AF] font-semibold mb-6 font-['Lexend']">Detect, Prevent, and Respond — Intelligently</h2>
+            <h2 className="text-2xl md:text-3xl text-[#1E40AF] font-semibold mb-6 font-['Lexend']">Detect, Prevent, and Respond - Intelligently</h2>
             <p className="text-xl md:text-2xl text-slate-700 mb-10 font-['DM_Sans'] max-w-3xl mx-auto leading-relaxed">
-              We help businesses uncover hidden fraud patterns, assess operational risk, and protect assets in real-time — using AI-driven anomaly detection, scoring models, and behavioral analytics.
+              We help businesses uncover hidden fraud patterns, assess operational risk, and protect assets in real-time - using AI-driven anomaly detection, scoring models, and behavioral analytics.
             </p>
             <motion.button whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.97 }} className="bg-[#2563EB] hover:bg-[#1E40AF] text-white px-8 py-4 rounded-xl font-semibold text-lg shadow-lg shadow-[#2563EB]/20 border-none focus:ring-2 focus:ring-[#2563EB]/50 transition-all duration-300">
               Book a Risk Assessment

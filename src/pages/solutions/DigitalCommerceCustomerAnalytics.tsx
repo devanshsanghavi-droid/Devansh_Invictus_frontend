@@ -5,7 +5,7 @@ import { BarChart2, PieChart, Repeat, DollarSign, MessageCircle, CheckCircle2 } 
 import Navbar from "@/components/layout/Navbar";
 
 const analyticsCapabilities = [
-  { icon: BarChart2, title: "Customer Journey Mapping", desc: "Track and visualize how customers move across touchpoints — from discovery to purchase to re-engagement." },
+  { icon: BarChart2, title: "Customer Journey Mapping", desc: "Track and visualize how customers move across touchpoints - from discovery to purchase to re-engagement." },
   { icon: PieChart, title: "Behavioral Segmentation", desc: "Group users by actions, preferences, and lifecycle stages to enable targeting and tailored experiences." },
   { icon: Repeat, title: "Churn & Retention Analysis", desc: "Identify churn patterns, engagement gaps, and retention drivers to reduce customer loss and increase lifetime value." },
   { icon: DollarSign, title: "RFM & LTV Modeling", desc: "Use Recency-Frequency-Monetary (RFM) analysis and predictive LTV modeling to identify your most valuable customer segments." },

@@ -48,14 +48,14 @@ const ProductEngineering: React.FC = () => {
               </div>
               
               <p className="text-xl font-['DM_Sans'] text-slate-600 max-w-3xl mx-auto leading-relaxed">
-                From Zero to Product—Faster
+                From Zero to Product, Faster
               </p>
             </div>
 
             {/* Content */}
             <div className="mb-16 space-y-8">
               <div className="bg-white backdrop-blur-md rounded-2xl border border-slate-200 shadow-lg p-8">
-                <h2 className="text-2xl font-bold font-['Lexend'] text-slate-900 mb-6">From Zero to Product—Faster</h2>
+                <h2 className="text-2xl font-bold font-['Lexend'] text-slate-900 mb-6">From Zero to Product, Faster</h2>
                 <div className="space-y-4 text-slate-600 font-['DM_Sans'] leading-relaxed">
                   <p>
                     Accelerate your product development with our full-cycle engineering expertise. 

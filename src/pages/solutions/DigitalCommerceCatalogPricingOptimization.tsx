@@ -34,9 +34,9 @@ const DigitalCommerceCatalogPricingOptimization: React.FC = () => {
         <section className="px-8 py-20 max-md:px-5 max-md:py-12 bg-[#1a1a1a]">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-slate-900 font-['Lexend'] mb-4">Catalog & Pricing Optimization</h1>
-            <h2 className="text-2xl md:text-3xl text-[#1E40AF] font-semibold mb-6 font-['Lexend']">Maximize Visibility, Conversion, and Margin — Automatically</h2>
+            <h2 className="text-2xl md:text-3xl text-[#1E40AF] font-semibold mb-6 font-['Lexend']">Maximize Visibility, Conversion, and Margin - Automatically</h2>
             <p className="text-xl md:text-2xl text-slate-700 mb-10 font-['DM_Sans'] max-w-3xl mx-auto leading-relaxed">
-              We use data-driven strategies to optimize your product catalog and pricing — ensuring you're always competitive, discoverable, and profitable in dynamic markets.
+              We use data-driven strategies to optimize your product catalog and pricing - ensuring you're always competitive, discoverable, and profitable in dynamic markets.
             </p>
             <CustomButton size="lg" className="bg-[#2563EB] hover:bg-[#1E40AF] text-white border-none mb-4">
               Book a Catalog & Pricing Review

@@ -45,7 +45,7 @@ const designDevToolCategories = ["All", "Frontend", "Backend", "Mobile", "Databa
 
 const capabilities = [
   { icon: Settings, title: "Product Strategy & Roadmapping", desc: "Collaborate on defining product vision, user flows, and release plans aligned with business goals and user needs." },
-  { icon: Palette, title: "UI/UX Design & Prototyping", desc: "Design beautiful, intuitive interfaces that deliver seamless user experiences — from wireframes and interactive prototypes to design systems." },
+  { icon: Palette, title: "UI/UX Design & Prototyping", desc: "Design beautiful, intuitive interfaces that deliver seamless user experiences - from wireframes and interactive prototypes to design systems." },
   { icon: Code, title: "Full-Stack Development", desc: "Develop robust web and mobile applications using modern, scalable tech stacks. Clean architecture, test coverage, and modularity included." },
   { icon: Zap, title: "MVP Development & Validation", desc: "Build fast, lean MVPs to validate ideas with real users and iterate quickly based on feedback and usage data." },
   { icon: Cloud, title: "End-to-End DevOps & Deployment", desc: "Set up CI/CD pipelines, scalable cloud infrastructure, containerization, and automated deployment workflows for reliable product launches." },
@@ -75,7 +75,7 @@ const whyUs = [
 const maintenanceOfferings = [
   { icon: RefreshCw, title: "24/7 Monitoring & Incident Response", desc: "Proactively monitor performance, errors, uptime, and logs. Detect and resolve issues before they impact users." },
   { icon: Bug, title: "Bug Fixing & Issue Resolution", desc: "Diagnose and fix critical bugs, crashes, or regressions across platforms and versions with fast turnaround times." },
-  { icon: Cloud, title: "OS & Platform Compatibility Updates", desc: "Keep your applications compatible with the latest iOS, Android, browser, and cloud platform updates — without disruption." },
+  { icon: Cloud, title: "OS & Platform Compatibility Updates", desc: "Keep your applications compatible with the latest iOS, Android, browser, and cloud platform updates - without disruption." },
   { icon: TrendingUp, title: "Performance Optimization", desc: "Analyze and enhance speed, responsiveness, memory usage, and overall stability across devices." },
   { icon: ShieldCheck, title: "Security Patching & Compliance", desc: "Implement vulnerability fixes, encryption upgrades, and data protection improvements to meet evolving compliance standards." },
   { icon: Zap, title: "Feature Enhancements", desc: "Implement small-to-medium improvements, UX refinements, and incremental feature rollouts based on user feedback or product needs." },
@@ -140,9 +140,9 @@ const ProductDesignDevelopment: React.FC = () => {
             {/* Right: Stat Card */}
             <div className="flex-1 flex flex-col justify-center bg-white rounded-3xl p-10 min-h-[340px] max-h-[420px] shadow-lg">
               <div className="text-slate-900 text-3xl md:text-4xl font-semibold tracking-wide mb-6 unbounded">Product Design, Development & Maintenance</div>
-              <div className="text-[#1E40AF] text-xl md:text-2xl font-semibold tracking-wide mb-6 unbounded">From Idea to Launch — and Beyond</div>
+              <div className="text-[#1E40AF] text-xl md:text-2xl font-semibold tracking-wide mb-6 unbounded">From Idea to Launch - and Beyond</div>
               <div className="text-slate-800 text-base md:text-lg font-normal max-w-xl">
-                We turn ideas into scalable, high-impact digital products through end-to-end design, development, deployment, and ongoing maintenance — built for usability, performance, and growth.
+                We turn ideas into scalable, high-impact digital products through end-to-end design, development, deployment, and ongoing maintenance - built for usability, performance, and growth.
               </div>
             </div>
           </div>
@@ -265,7 +265,7 @@ const ProductDesignDevelopment: React.FC = () => {
               <div className="text-slate-900 text-3xl md:text-4xl font-semibold tracking-wide mb-6 unbounded">Application Maintenance</div>
               <div className="text-[#1E40AF] text-xl md:text-2xl font-semibold tracking-wide mb-6 unbounded">Reliable, Continuous Application Lifecycle Management</div>
               <div className="text-slate-800 text-base md:text-lg font-normal max-w-xl">
-                Ensure your applications stay stable, high-performing, and up-to-date across devices, platforms, and OS versions — with 24/7 monitoring, support, and enhancement.
+                Ensure your applications stay stable, high-performing, and up-to-date across devices, platforms, and OS versions - with 24/7 monitoring, support, and enhancement.
               </div>
             </div>
           </div>

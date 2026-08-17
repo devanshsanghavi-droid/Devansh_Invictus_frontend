@@ -38,7 +38,7 @@ const LeadershipTeamReplica: React.FC = () => (
         </div>
         <h2 className="text-2xl md:text-3xl text-[#1E40AF] font-semibold mb-6 font-['Lexend']">Vision. Expertise. Execution.</h2>
         <p className="text-xl md:text-2xl text-slate-700 mb-10 font-['DM_Sans'] max-w-3xl mx-auto leading-relaxed">
-          At Invictus, our leadership combines deep industry knowledge with a relentless drive for innovation — guiding high-impact teams at every level.
+          At Invictus, our leadership combines deep industry knowledge with a relentless drive for innovation - guiding high-impact teams at every level.
         </p>
       </div>
     </section>

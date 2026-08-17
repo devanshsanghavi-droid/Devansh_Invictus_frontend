@@ -46,7 +46,7 @@ const LifeAtInvictus: React.FC = () => {
           <span role="img" aria-label="briefcase"></span> Life at Invictus Data
         </h1>
         <h2 className="text-2xl md:text-3xl text-[#2563EB] font-semibold mb-6 unbounded">Here, Anything Is Possible</h2>
-        <p className="text-lg text-slate-700 mb-8 font-['DM_Sans']">At Invictus Data, your work has reach, your ideas have power, and your purpose has a place.<br />We're a team driven by impact — solving complex problems for global clients while building a better, more connected world.</p>
+        <p className="text-lg text-slate-700 mb-8 font-['DM_Sans']">At Invictus Data, your work has reach, your ideas have power, and your purpose has a place.<br />We're a team driven by impact - solving complex problems for global clients while building a better, more connected world.</p>
 
         {/* Life at Our Offices Collage */}
         <section className="mb-10 bg-transparent">
@@ -83,13 +83,13 @@ const LifeAtInvictus: React.FC = () => {
 
         <section className="mb-10 bg-white border border-[#2563EB]/20 rounded-2xl p-6">
           <h3 className="text-xl font-bold text-[#2563EB] mb-2 flex items-center gap-2 unbounded"><span role="img" aria-label="globe"></span> Work with Reach</h3>
-          <p className="text-slate-700 mb-4">At Invictus Data, every project stretches your perspective and sharpens your skills.<br />Whether you’re deploying scalable AI platforms, building cloud-native apps, or optimizing data systems — your work creates real-world outcomes that matter.</p>
+          <p className="text-slate-700 mb-4">At Invictus Data, every project stretches your perspective and sharpens your skills.<br />Whether you’re deploying scalable AI platforms, building cloud-native apps, or optimizing data systems - your work creates real-world outcomes that matter.</p>
           <blockquote className="italic text-slate-400 border-l-4 border-[#2563EB] pl-4 mb-4">“Here, your code doesn’t just compile. It shapes retail, finance, healthcare, and logistics ecosystems around the world.”</blockquote>
         </section>
 
         <section className="mb-10 bg-white border border-[#2563EB]/20 rounded-2xl p-6">
           <h3 className="text-xl font-bold text-[#2563EB] mb-2 flex items-center gap-2 unbounded"><span role="img" aria-label="target"></span> Work with Purpose</h3>
-          <p className="text-slate-700 mb-4">We believe innovation must be paired with intention.<br />From ethical engineering to empowering underserved communities, our work is rooted in the belief that tech should be a force for good — for people, businesses, and the planet.</p>
+          <p className="text-slate-700 mb-4">We believe innovation must be paired with intention.<br />From ethical engineering to empowering underserved communities, our work is rooted in the belief that tech should be a force for good - for people, businesses, and the planet.</p>
         </section>
 
         <section className="mb-10 bg-white border border-[#2563EB]/20 rounded-2xl p-6">
@@ -105,7 +105,7 @@ const LifeAtInvictus: React.FC = () => {
           </div>
           <div className="mb-6">
             <h4 className="text-lg font-semibold text-[#2563EB] mb-1 flex items-center gap-2"><span role="img" aria-label="globe"></span> Inclusion & Diversity</h4>
-            <p className="text-slate-700 mb-2">We’re stronger when we reflect the world we serve.<br />Invictus Data is committed to building diverse teams — across gender, race, geography, neurodiversity, and more — because the best ideas come from different perspectives.</p>
+            <p className="text-slate-700 mb-2">We’re stronger when we reflect the world we serve.<br />Invictus Data is committed to building diverse teams - across gender, race, geography, neurodiversity, and more - because the best ideas come from different perspectives.</p>
             <ul className="list-disc list-inside text-slate-600 mb-4">
               <li>Cognitive diversity is non-negotiable</li>
               <li>Safe, inclusive spaces for every identity</li>
@@ -114,7 +114,7 @@ const LifeAtInvictus: React.FC = () => {
           </div>
           <div className="mb-6">
             <h4 className="text-lg font-semibold text-[#2563EB] mb-1 flex items-center gap-2"><span role="img" aria-label="robot"></span> Responsible AI</h4>
-            <p className="text-slate-700 mb-2">AI should be powerful — but also ethical, safe, and explainable.<br />We guide clients to build and deploy Responsible AI with transparency, fairness, and trust at the core.</p>
+            <p className="text-slate-700 mb-2">AI should be powerful - but also ethical, safe, and explainable.<br />We guide clients to build and deploy Responsible AI with transparency, fairness, and trust at the core.</p>
             <ul className="list-disc list-inside text-slate-600 mb-4">
               <li>Bias testing and guardrails for LLMs</li>
               <li>Human-in-the-loop oversight</li>
@@ -125,7 +125,7 @@ const LifeAtInvictus: React.FC = () => {
 
         <section className="mb-10 bg-white border border-[#2563EB]/20 rounded-2xl p-6">
           <h3 className="text-xl font-bold text-[#2563EB] mb-2 flex items-center gap-2 unbounded"><span role="img" aria-label="rocket"></span> Ready to Do Work That Matters?</h3>
-          <p className="text-slate-700 mb-6">Join Invictus Data and bring your talent to the table — where your impact echoes globally.</p>
+          <p className="text-slate-700 mb-6">Join Invictus Data and bring your talent to the table - where your impact echoes globally.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="/careers" className="bg-[#2563EB] text-white px-8 py-4 rounded-full font-semibold text-lg shadow-lg border-none focus:ring-2 focus:ring-[#2563EB]/50 transition-all duration-300 text-center">Explore Careers</a>          </div>
         </section>

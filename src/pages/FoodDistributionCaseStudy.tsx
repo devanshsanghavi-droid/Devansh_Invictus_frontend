@@ -95,7 +95,7 @@ const FoodDistributionCaseStudy: React.FC = () => {
                 Seasonal trends, regional preferences, and unpredictable
                 disruptions (like extreme weather or global supply chain shocks)
                 make accurate forecasting difficult. Overstock leads to
-                waste—particularly for perishable items—while understocking
+                waste, particularly for perishable items, while understocking
                 results in missed sales and unhappy customers.
               </p>
             </div>
@@ -135,7 +135,7 @@ const FoodDistributionCaseStudy: React.FC = () => {
               </ul>
               <p className="text-sm sm:text-base text-slate-900 font-['DM_Sans'] leading-relaxed mt-4">
                 By integrating machine learning algorithms, companies adjust
-                forecasts dynamically—accounting for sudden changes in demand at
+                forecasts dynamically, accounting for sudden changes in demand at
                 the regional or even store level.
               </p>
             </div>
@@ -196,7 +196,7 @@ const FoodDistributionCaseStudy: React.FC = () => {
               </ul>
               <p className="text-sm sm:text-base text-slate-900 font-['DM_Sans'] leading-relaxed mt-4">
                 Geospatial analytics helps identify bottlenecks, streamline
-                routes, and reduce idle time—all while improving customer
+                routes, and reduce idle time, all while improving customer
                 satisfaction with accurate ETA updates.
               </p>
             </div>
@@ -217,8 +217,8 @@ const FoodDistributionCaseStudy: React.FC = () => {
               </h3>
               <p className="text-slate-900 font-['DM_Sans'] leading-relaxed">
                 In a saturated and highly competitive market, retaining
-                foodservice customers—ranging from independent restaurants to
-                healthcare institutions—requires delivering tailored experiences
+                foodservice customers, ranging from independent restaurants to
+                healthcare institutions, requires delivering tailored experiences
                 and understanding unique preferences.
               </p>
             </div>
@@ -343,13 +343,13 @@ const FoodDistributionCaseStudy: React.FC = () => {
                 The evolution of the food distribution industry is being shaped
                 by data at every touchpoint. From optimizing truck routes and
                 inventory to anticipating customer demand and minimizing waste,
-                analytics is no longer a support function—it's a strategic
+                analytics is no longer a support function, it's a strategic
                 imperative.
               </p>
               <p>
                 Distributors that invest in end-to-end data integration,
                 AI-driven insights, and real-time decision-making tools are not
-                just keeping pace—they're setting the standard for a smarter,
+                just keeping pace, they're setting the standard for a smarter,
                 more sustainable, and customer-focused industry.
               </p>
               <p className="font-semibold text-[#2563EB]">

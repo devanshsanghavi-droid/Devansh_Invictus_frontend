@@ -6,7 +6,7 @@ import Navbar from "@/components/layout/Navbar";
 
 const cxCapabilities = [
   { icon: Layers, title: "Unified Customer Profiles", desc: "Consolidate customer data from web, mobile, CRM, and offline systems to create 360° profiles that fuel better engagement." },
-  { icon: Repeat, title: "Journey Orchestration", desc: "Design, automate, and optimize user journeys across email, SMS, push, social, and in-app — based on real-time behaviors and triggers." },
+  { icon: Repeat, title: "Journey Orchestration", desc: "Design, automate, and optimize user journeys across email, SMS, push, social, and in-app - based on real-time behaviors and triggers." },
   { icon: Zap, title: "Personalization & Recommendations", desc: "Use AI/ML to deliver personalized content, product recommendations, and offers tailored to user preferences and intent." },
   { icon: BarChart2, title: "CX Analytics & Feedback Loops", desc: "Track CSAT, NPS, usage behavior, and support interactions to continuously improve experience design and satisfaction." },
   { icon: MessageCircle, title: "CX Automation & Support Integration", desc: "Automate FAQs, live chat, ticketing, and support workflows through AI-driven bots and integrated helpdesk systems." },
@@ -58,7 +58,7 @@ const RetailCustomerExperiencePlatforms: React.FC = () => {
             <h1 className="text-4xl md:text-5xl font-bold text-slate-900 font-['Lexend'] mb-4">Customer Experience (CX) Platforms</h1>
             <h2 className="text-2xl md:text-3xl text-[#1E40AF] font-semibold mb-6 font-['Lexend']">Deliver Consistent, Personalized Experiences at Scale</h2>
             <p className="text-xl md:text-2xl text-slate-700 mb-10 font-['DM_Sans'] max-w-3xl mx-auto leading-relaxed">
-              We build and integrate customer experience platforms that unify data, automate engagement, and personalize every touchpoint — turning casual users into loyal customers.
+              We build and integrate customer experience platforms that unify data, automate engagement, and personalize every touchpoint - turning casual users into loyal customers.
             </p>
             <CustomButton size="lg" className="bg-[#2563EB] hover:bg-[#1E40AF] text-white border-none mb-4">
               Explore Our CX Solutions

@@ -33,7 +33,7 @@ const DataAnalytics: React.FC = () => {
 
   const demandForecastingCapabilities = [
     { icon: TrendingUp, title: "Multi-Variable Forecasting Models", desc: "Incorporate sales history, seasonality, promotions, holidays, and external data (weather, economic indicators) to build reliable forecasts." },
-    { icon: BarChart3, title: "Granular Sales Forecasting", desc: "Forecast sales by SKU, region, channel, or customer segment — daily, weekly, or monthly — to inform procurement and promotions." },
+    { icon: BarChart3, title: "Granular Sales Forecasting", desc: "Forecast sales by SKU, region, channel, or customer segment - daily, weekly, or monthly - to inform procurement and promotions." },
     { icon: Zap, title: "Automated Inventory Planning", desc: "Drive smarter restocking with demand predictions integrated into supply chain and inventory systems." },
     { icon: Target, title: "Real-Time Forecast Adjustments", desc: "Update forecasts dynamically as new data (e.g., campaign performance, stockouts) enters the system." },
     { icon: PieChart, title: "Scenario Planning & What-If Analysis", desc: "Run simulations to evaluate outcomes of pricing changes, marketing campaigns, or new product launches." },
@@ -68,7 +68,7 @@ const DataAnalytics: React.FC = () => {
               <h1 className="text-5xl md:text-6xl font-bold text-slate-900 mb-4 font-['Lexend']">Demand & Sales Forecasting</h1>
               <h2 className="text-2xl md:text-3xl text-[#3B82F6] font-semibold mb-6 font-['Lexend']">Predict What's Next. Plan What's Smart.</h2>
               <p className="text-xl md:text-2xl text-slate-700 mb-10 font-['DM_Sans'] max-w-3xl mx-auto leading-relaxed">
-                We help businesses forecast demand and sales with accuracy — using machine learning, historical trends, seasonality, and external factors to optimize inventory, pricing, and resource planning.
+                We help businesses forecast demand and sales with accuracy - using machine learning, historical trends, seasonality, and external factors to optimize inventory, pricing, and resource planning.
               </p>
 
             </div>

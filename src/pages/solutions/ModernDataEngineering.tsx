@@ -38,10 +38,10 @@ const techStack = [
 const techCategories = ["All", "Cloud", "Data Integration", "Data Transformation", "Orchestration", "Data Lake/Warehouse", "Streaming", "Containers/Infra", "Languages"];
 
 const capabilities = [
-  { icon: Zap, title: "Data Ingestion & Integration", desc: "Streamline data collection from structured, semi-structured, and unstructured sources — in real-time or batch — using scalable, resilient ingestion pipelines." },
-  { icon: Layers, title: "Data Transformation & Modeling", desc: "Leverage ELT best practices to clean, enrich, and model your data using modular, reusable workflows — optimized for analytics, ML, and business reporting." },
+  { icon: Zap, title: "Data Ingestion & Integration", desc: "Streamline data collection from structured, semi-structured, and unstructured sources - in real-time or batch - using scalable, resilient ingestion pipelines." },
+  { icon: Layers, title: "Data Transformation & Modeling", desc: "Leverage ELT best practices to clean, enrich, and model your data using modular, reusable workflows - optimized for analytics, ML, and business reporting." },
   { icon: BarChart3, title: "Data Activation", desc: "Operationalize your data by syncing it with business tools and downstream applications for actionable insights and smarter decision-making." },
-  { icon: Cloud, title: "Cloud-Native Architecture", desc: "Design data platforms that leverage the best of the cloud (AWS, GCP, Azure) — with serverless components, autoscaling, and infrastructure-as-code." },
+  { icon: Cloud, title: "Cloud-Native Architecture", desc: "Design data platforms that leverage the best of the cloud (AWS, GCP, Azure) - with serverless components, autoscaling, and infrastructure-as-code." },
   { icon: Eye, title: "Metadata Management & Observability", desc: "Enable full visibility into your data lifecycle with built-in lineage tracking, quality checks, alerts, and real-time monitoring dashboards." },
   { icon: Shield, title: "Security & Compliance", desc: "Implement strong access control, encryption, and data masking to ensure privacy and meet regulatory requirements like GDPR, HIPAA, and SOC2." },
 ];

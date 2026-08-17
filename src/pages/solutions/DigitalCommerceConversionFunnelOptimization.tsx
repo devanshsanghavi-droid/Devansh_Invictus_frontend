@@ -7,7 +7,7 @@ import Navbar from "@/components/layout/Navbar";
 const funnelCapabilities = [
   { icon: TrendingUp, title: "Funnel Auditing & Drop-Off Analysis", desc: "Map the user journey from entry to conversion and identify weak spots in the funnel using behavioral data, heatmaps, and user flows." },
   { icon: UserCheck, title: "UX/UI Enhancements", desc: "Revise page layouts, CTAs, form elements, navigation, and product displays to improve visual hierarchy and usability." },
-  { icon: Gauge, title: "Page Speed & Performance Optimization", desc: "Improve load times, Core Web Vitals, and responsiveness — especially for mobile users — using lazy loading, code splitting, and CDN tuning." },
+  { icon: Gauge, title: "Page Speed & Performance Optimization", desc: "Improve load times, Core Web Vitals, and responsiveness - especially for mobile users - using lazy loading, code splitting, and CDN tuning." },
   { icon: FlaskConical, title: "A/B & Multivariate Testing", desc: "Implement and run experiments to measure the impact of different variations on conversion rates, bounce rates, and cart completions." },
   { icon: MousePointerClick, title: "Checkout & Cart Optimization", desc: "Streamline cart interactions, simplify checkout flows, enable guest checkouts, and remove distractions that cause abandonment." },
   { icon: Layers, title: "Personalized Experiences", desc: "Serve tailored content, offers, and messages to different segments using intent-based triggers and audience targeting." }
@@ -35,9 +35,9 @@ const DigitalCommerceConversionFunnelOptimization: React.FC = () => {
         <section className="px-8 py-20 max-md:px-5 max-md:py-12 bg-[#1a1a1a]">
           <div className="max-w-4xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-slate-900 font-['Lexend'] mb-4">Conversion Funnel Optimization</h1>
-            <h2 className="text-2xl md:text-3xl text-[#1E40AF] font-semibold mb-6 font-['Lexend']">Turn Traffic into Revenue — Smoothly and Strategically</h2>
+            <h2 className="text-2xl md:text-3xl text-[#1E40AF] font-semibold mb-6 font-['Lexend']">Turn Traffic into Revenue - Smoothly and Strategically</h2>
             <p className="text-xl md:text-2xl text-slate-700 mb-10 font-['DM_Sans'] max-w-3xl mx-auto leading-relaxed">
-              We help you map, analyze, and optimize every step of your customer journey — from first click to final purchase — using data-driven insights and proven UX strategies.
+              We help you map, analyze, and optimize every step of your customer journey - from first click to final purchase - using data-driven insights and proven UX strategies.
             </p>
             <CustomButton size="lg" className="bg-[#2563EB] hover:bg-[#1E40AF] text-white border-none mb-4">
               Talk to Our Funnel Experts

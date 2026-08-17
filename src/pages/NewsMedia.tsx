@@ -8,12 +8,12 @@ const highlights = [
   {
     icon: Rocket,
     title: "AI Summit: Bangalore Edition",
-    desc: 'Our CTO Rafael Herrera spoke on "Scaling Generative AI with Robust Data Foundations" — highlighting how AI-ready pipelines are the backbone of every successful LLM deployment.'
+    desc: 'Our CTO Rafael Herrera spoke on "Scaling Generative AI with Robust Data Foundations" - highlighting how AI-ready pipelines are the backbone of every successful LLM deployment.'
   },
   {
     icon: Rocket,
     title: "Product Launch: Retail Automation Suite",
-    desc: "We unveiled a new solution stack for retail operations — including demand forecasting, fraud detection, and omnichannel data orchestration."
+    desc: "We unveiled a new solution stack for retail operations - including demand forecasting, fraud detection, and omnichannel data orchestration."
   },
   {
     icon: Award,
@@ -23,9 +23,9 @@ const highlights = [
 ];
 
 const thoughtLeadership = [
-  '"The New Blueprint for Data-Driven Enterprises" — by Nirjar Sanghavi',
-  '"Why AI Projects Fail (and How to Prevent It)" — Panel with Invictus & AWS',
-  '"Modernizing APIs for Omnichannel Retail" — Blog Series'
+  '"The New Blueprint for Data-Driven Enterprises" - by Nirjar Sanghavi',
+  '"Why AI Projects Fail (and How to Prevent It)" - Panel with Invictus & AWS',
+  '"Modernizing APIs for Omnichannel Retail" - Blog Series'
 ];
 
 const NewsMedia: React.FC = () => (

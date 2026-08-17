@@ -7,7 +7,7 @@ import Seo from "@/components/Seo";
 const offerings = [
   { icon: RefreshCw, title: "24/7 Monitoring & Incident Response", desc: "Proactively monitor performance, errors, uptime, and logs. Detect and resolve issues before they impact users." },
   { icon: Bug, title: "Bug Fixing & Issue Resolution", desc: "Diagnose and fix critical bugs, crashes, or regressions across platforms and versions with fast turnaround times." },
-  { icon: Cloud, title: "OS & Platform Compatibility Updates", desc: "Keep your applications compatible with the latest iOS, Android, browser, and cloud platform updates — without disruption." },
+  { icon: Cloud, title: "OS & Platform Compatibility Updates", desc: "Keep your applications compatible with the latest iOS, Android, browser, and cloud platform updates - without disruption." },
   { icon: TrendingUp, title: "Performance Optimization", desc: "Analyze and enhance speed, responsiveness, memory usage, and overall stability across devices." },
   { icon: ShieldCheck, title: "Security Patching & Compliance", desc: "Implement vulnerability fixes, encryption upgrades, and data protection improvements to meet evolving compliance standards." },
   { icon: Zap, title: "Feature Enhancements", desc: "Implement small-to-medium improvements, UX refinements, and incremental feature rollouts based on user feedback or product needs." },
@@ -100,7 +100,7 @@ const ApplicationMaintenance: React.FC = () => {
               <div className="text-slate-900 text-3xl md:text-4xl font-semibold tracking-wide mb-6 unbounded">Application Maintenance</div>
               <div className="text-[#1E40AF] text-xl md:text-2xl font-semibold tracking-wide mb-6 unbounded">Reliable, Continuous Application Lifecycle Management</div>
               <div className="text-slate-800 text-base md:text-lg font-normal max-w-xl">
-                Ensure your applications stay stable, high-performing, and up-to-date across devices, platforms, and OS versions — with 24/7 monitoring, support, and enhancement.
+                Ensure your applications stay stable, high-performing, and up-to-date across devices, platforms, and OS versions - with 24/7 monitoring, support, and enhancement.
               </div>
             </div>
           </div>
@@ -159,7 +159,7 @@ const ApplicationMaintenance: React.FC = () => {
                 <section className="w-full flex flex-col items-center justify-center py-2 px-6 max-w-7xl mx-auto">
           <div className="w-full bg-white rounded-3xl p-8 md:p-12 flex flex-col gap-4">
             <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-2 unbounded">Keep Your Applications Running at Their Best</h2>
-            <div className="text-base md:text-lg text-slate-600 mb-6">Applications don’t stop evolving after launch — and neither do we. Our application maintenance services ensure your software remains secure, compatible, and optimized, while continuously adapting to changing business and user needs.<br/>Whether it’s bug fixing, performance tuning, platform updates, or new feature rollouts — we ensure smooth day-to-day operations and long-term sustainability for your digital products.
+            <div className="text-base md:text-lg text-slate-600 mb-6">Applications don’t stop evolving after launch - and neither do we. Our application maintenance services ensure your software remains secure, compatible, and optimized, while continuously adapting to changing business and user needs.<br/>Whether it’s bug fixing, performance tuning, platform updates, or new feature rollouts - we ensure smooth day-to-day operations and long-term sustainability for your digital products.
             </div>
           </div>
         </section>
@@ -214,7 +214,7 @@ const ApplicationMaintenance: React.FC = () => {
         <section className="w-full py-20 px-6  relative overflow-hidden">
           <div className="max-w-3xl mx-auto text-center relative z-10">
             <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4 font-['Lexend']">Keep Your App Running Smoothly</h2>
-            <p className="text-xl text-slate-700 mb-8 font-['DM_Sans']">Let’s ensure your product continues to perform, scale, and delight users — without interruption.</p>
+            <p className="text-xl text-slate-700 mb-8 font-['DM_Sans']">Let’s ensure your product continues to perform, scale, and delight users - without interruption.</p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
               <button className="border-2 border-[#93C5FD] text-[#1E40AF] px-8 py-4 rounded-xl font-semibold text-lg hover:bg-[#2563EB]/10 transition-all duration-300">Talk to Our Support Team</button>
             </div>

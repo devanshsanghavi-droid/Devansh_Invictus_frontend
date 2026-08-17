@@ -5,12 +5,12 @@ import { Smartphone, Users, Truck, Layers, ShoppingCart, Repeat, Star } from "lu
 import Navbar from "@/components/layout/Navbar";
 
 const mobilityCapabilities = [
-  { icon: ShoppingCart, title: "Mobile Point-of-Sale (mPOS) Solutions", desc: "Enable in-store teams to check out customers, manage inventory, and handle returns on the go — improving service speed and flexibility." },
+  { icon: ShoppingCart, title: "Mobile Point-of-Sale (mPOS) Solutions", desc: "Enable in-store teams to check out customers, manage inventory, and handle returns on the go - improving service speed and flexibility." },
   { icon: Users, title: "Sales Associate Enablement Apps", desc: "Equip floor teams with real-time product data, customer history, and recommendations to drive in-store conversions." },
-  { icon: Truck, title: "Field Force & Retail Ops Apps", desc: "Custom mobile apps for territory management, route planning, inventory audits, and reporting — all offline-capable." },
+  { icon: Truck, title: "Field Force & Retail Ops Apps", desc: "Custom mobile apps for territory management, route planning, inventory audits, and reporting - all offline-capable." },
   { icon: Star, title: "Customer Loyalty & Shopping Apps", desc: "Branded apps for consumers with features like offers, wishlists, push notifications, digital wallets, and store locators." },
   { icon: Layers, title: "Order Management & Fulfillment", desc: "Mobile dashboards for order tracking, stock allocation, BOPIS (Buy Online, Pick Up In-Store), and delivery workflows." },
-  { icon: Smartphone, title: "Cross-Platform Development", desc: "Build once, deploy anywhere — using React Native, Flutter, and PWA to serve iOS, Android, and in-store kiosks." }
+  { icon: Smartphone, title: "Cross-Platform Development", desc: "Build once, deploy anywhere - using React Native, Flutter, and PWA to serve iOS, Android, and in-store kiosks." }
 ];
 const mobilityTools = [
   { name: "Flutter", category: "Mobile Frameworks" },
@@ -57,7 +57,7 @@ const RetailMobilitySolutions: React.FC = () => {
             <h1 className="text-4xl md:text-5xl font-bold text-slate-900 font-['Lexend'] mb-4">Retail Mobility Solutions</h1>
             <h2 className="text-2xl md:text-3xl text-[#1E40AF] font-semibold mb-6 font-['Lexend']">Anywhere. Anytime. Always Connected Retail.</h2>
             <p className="text-xl md:text-2xl text-slate-700 mb-10 font-['DM_Sans'] max-w-3xl mx-auto leading-relaxed">
-              We build mobile-first retail solutions that empower staff, engage customers, and optimize operations — across devices, locations, and use cases.
+              We build mobile-first retail solutions that empower staff, engage customers, and optimize operations - across devices, locations, and use cases.
             </p>
             <CustomButton size="lg" className="bg-[#2563EB] hover:bg-[#1E40AF] text-white border-none mb-4">
               Explore Our Mobile Solutions

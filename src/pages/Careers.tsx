@@ -69,7 +69,7 @@ const Careers: React.FC = () => {
             </div>
             <h2 className="text-2xl md:text-3xl text-[#2563EB] font-semibold mb-6 font-['Lexend']">We're Hiring Across Geographies and Teams</h2>
             <p className="text-xl md:text-2xl text-slate-700 mb-10 font-['DM_Sans'] max-w-3xl mx-auto leading-relaxed">
-              Join our global mission to solve complex business problems with cutting-edge Data & AI solutions. We're actively hiring for roles across engineering, data, and product — in India and the US.
+              Join our global mission to solve complex business problems with cutting-edge Data & AI solutions. We're actively hiring for roles across engineering, data, and product - in India and the US.
             </p>
             
           </div>

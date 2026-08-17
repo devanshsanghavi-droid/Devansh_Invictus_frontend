@@ -138,7 +138,7 @@ export const ServicesOverview: React.FC = () => {
                             key={feature}
                             className="text-sm text-slate-600 flex gap-3"
                           >
-                            <span className="text-slate-300 select-none">—</span>
+                            <span className="text-slate-300 select-none">-</span>
                             {feature}
                           </li>
                         ))}

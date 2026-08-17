@@ -105,7 +105,7 @@ const SiteReliabilityEngineering: React.FC = () => {
               <div className="text-slate-900 text-3xl md:text-4xl font-semibold tracking-wide mb-6 unbounded">Site Reliability Engineering</div>
               <div className="text-[#1E40AF] text-xl md:text-2xl font-semibold tracking-wide mb-6 unbounded">Infrastructure That Scales. Reliability That Lasts.</div>
               <div className="text-slate-800 text-base md:text-lg font-normal max-w-xl">
-                We ensure robust observability, proactive incident management, and seamless scalability to power your business-critical systems — with cloud-native engineering at the core.
+                We ensure robust observability, proactive incident management, and seamless scalability to power your business-critical systems - with cloud-native engineering at the core.
               </div>
             </div>
           </div>
@@ -164,13 +164,13 @@ const SiteReliabilityEngineering: React.FC = () => {
                 <section className="w-full flex flex-col items-center justify-center py-2 px-6 max-w-7xl mx-auto">
           <div className="w-full bg-white rounded-3xl p-8 md:p-12 flex flex-col gap-4">
             <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-2 unbounded">Engineering for Reliability, Resilience & Speed</h2>
-            <div className="text-base md:text-lg text-slate-600 mb-6">Our Site Reliability Engineering (SRE) practice blends software engineering with IT operations to deliver highly available, fault-tolerant systems that scale effortlessly.<br/>We build and manage production-grade infrastructure — cloud-native, automated, and resilient by design — so your teams can ship faster and recover smarter. From Kubernetes and serverless to chaos engineering and SLAs, we bring the practices and tooling your business needs to stay always-on.
+            <div className="text-base md:text-lg text-slate-600 mb-6">Our Site Reliability Engineering (SRE) practice blends software engineering with IT operations to deliver highly available, fault-tolerant systems that scale effortlessly.<br/>We build and manage production-grade infrastructure - cloud-native, automated, and resilient by design - so your teams can ship faster and recover smarter. From Kubernetes and serverless to chaos engineering and SLAs, we bring the practices and tooling your business needs to stay always-on.
             </div>
           </div>
         </section>
         {/* Use Cases Section */}
         <section className="w-full py-24 px-6 max-w-7xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8 text-center font-['Lexend']">SRE in Action — Use Cases</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-8 text-center font-['Lexend']">SRE in Action - Use Cases</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             {useCases.map((uc, i) => {
               const Icon = {
@@ -219,7 +219,7 @@ const SiteReliabilityEngineering: React.FC = () => {
         <section className="w-full py-20 px-6  relative overflow-hidden">
           <div className="max-w-3xl mx-auto text-center relative z-10">
             <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4 font-['Lexend']">Build Infrastructure That Just Works</h2>
-            <p className="text-xl text-slate-700 mb-8 font-['DM_Sans']">Let us help you scale reliably, recover quickly, and operate with confidence — the SRE way.</p>
+            <p className="text-xl text-slate-700 mb-8 font-['DM_Sans']">Let us help you scale reliably, recover quickly, and operate with confidence - the SRE way.</p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
               <button className="border-2 border-[#93C5FD] text-[#1E40AF] px-8 py-4 rounded-xl font-semibold text-lg hover:bg-[#2563EB]/10 transition-all duration-300" onClick={() => navigate('/schedule-consultation')}>Talk to a Reliability Engineer</button>
             </div>

@@ -27,7 +27,7 @@ export const navigationData = {
         tagline: "Data Ingestion Software",
         icon: "database-zap",
         description:
-          "Ingest, validate, and route data from any source into your warehouse — reliably and at scale.",
+          "Ingest, validate, and route data from any source into your warehouse - reliably and at scale.",
         href: "https://spectra.trivas.ai",
         external: true
       }

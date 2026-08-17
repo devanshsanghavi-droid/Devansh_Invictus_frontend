@@ -124,7 +124,7 @@ export const Industries: React.FC = () => {
                         key={achievement}
                         className="text-sm text-slate-600 flex gap-3"
                       >
-                        <span className="text-slate-300 select-none">—</span>
+                        <span className="text-slate-300 select-none">-</span>
                         {achievement}
                       </li>
                     ))}

@@ -36,7 +36,7 @@ const DigitalCommerceOmnichannelPerformanceManagement: React.FC = () => {
             <h1 className="text-4xl md:text-5xl font-bold text-slate-900 font-['Lexend'] mb-4">Omnichannel Performance Management</h1>
             <h2 className="text-2xl md:text-3xl text-[#1E40AF] font-semibold mb-6 font-['Lexend']">A 360° View of Performance Across Every Touchpoint</h2>
             <p className="text-xl md:text-2xl text-slate-700 mb-10 font-['DM_Sans'] max-w-3xl mx-auto leading-relaxed">
-              We unify performance data across web, mobile, social, offline, and retail channels — giving you the insights needed to optimize spend, drive engagement, and improve operational efficiency.
+              We unify performance data across web, mobile, social, offline, and retail channels - giving you the insights needed to optimize spend, drive engagement, and improve operational efficiency.
             </p>
             <CustomButton size="lg" className="bg-[#2563EB] hover:bg-[#1E40AF] text-white border-none mb-4">
               Talk to Our Analytics Experts

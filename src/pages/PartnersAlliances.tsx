@@ -79,7 +79,7 @@ const PartnersAlliances: React.FC = () => (
         {/* Testimonial Section */}
         <section className="w-full py-24 px-6 max-w-3xl mx-auto">
           <div className="bg-white backdrop-blur-2xl rounded-2xl border border-[#2563EB]/30 shadow-xl p-8 flex flex-col items-center">
-            <p className="text-lg text-slate-700 italic mb-4 text-center">"Partnerships aren't just business for us — they're how we stay ahead of the curve and deliver better results for clients."</p>
+            <p className="text-lg text-slate-700 italic mb-4 text-center">"Partnerships aren't just business for us - they're how we stay ahead of the curve and deliver better results for clients."</p>
           </div>
         </section>
 

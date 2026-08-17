@@ -5,7 +5,7 @@ import { Zap, BarChart2, Layers, Repeat, DollarSign, Users, Eye, Shield } from "
 import Navbar from "@/components/layout/Navbar";
 
 const aiCapabilities = [
-  { icon: BarChart2, title: "AI-Powered Demand Forecasting", desc: "Predict future demand by analyzing past sales, seasonality, events, and promotions — reducing stockouts and overstock." },
+  { icon: BarChart2, title: "AI-Powered Demand Forecasting", desc: "Predict future demand by analyzing past sales, seasonality, events, and promotions - reducing stockouts and overstock." },
   { icon: Repeat, title: "Retail Process Automation", desc: "Automate repetitive tasks like product tagging, inventory updates, campaign rollouts, and support ticket handling." },
   { icon: DollarSign, title: "Dynamic Pricing & Promotion Optimization", desc: "Leverage real-time data to adjust prices and offers dynamically based on demand, inventory levels, and competitor activity." },
   { icon: Users, title: "Personalized Product Recommendations", desc: "Serve customers personalized suggestions using AI models trained on behavior, preferences, and purchase history." },
@@ -60,7 +60,7 @@ const RetailAIAutomation: React.FC = () => {
             <h1 className="text-4xl md:text-5xl font-bold text-slate-900 font-['Lexend'] mb-4">AI & Automation for Retail</h1>
             <h2 className="text-2xl md:text-3xl text-[#1E40AF] font-semibold mb-6 font-['Lexend']">Smarter Retail, Powered by AI</h2>
             <p className="text-xl md:text-2xl text-slate-700 mb-10 font-['DM_Sans'] max-w-3xl mx-auto leading-relaxed">
-              We empower retailers with AI-driven insights, automation, and intelligent workflows — transforming operations, personalization, and decision-making across the retail value chain.
+              We empower retailers with AI-driven insights, automation, and intelligent workflows - transforming operations, personalization, and decision-making across the retail value chain.
             </p>
             <CustomButton size="lg" className="bg-[#2563EB] hover:bg-[#1E40AF] text-white border-none mb-4">
               Book a Retail AI Consultation

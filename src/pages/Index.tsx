@@ -15,19 +15,19 @@ const ServicesOverview = lazy(
 const testimonials = [
   {
     quote:
-      "We went from managing everything in siloed spreadsheets to a unified reporting system — our analytics now takes minutes and gives us more confidence in our decisions.",
+      "We went from managing everything in siloed spreadsheets to a unified reporting system - our analytics now takes minutes and gives us more confidence in our decisions.",
     attribution: "VP, Sales & Marketing",
     org: "D2C firm",
   },
   {
     quote:
-      "Their engineering team feels like an extension of ours — fast, scalable, and always shipping with quality.",
+      "Their engineering team feels like an extension of ours - fast, scalable, and always shipping with quality.",
     attribution: "CTO",
     org: "SaaS company",
   },
   {
     quote:
-      "Before working with them, we were reacting to reports. Now we have dashboards that tell us what will happen next week — not what happened last week.",
+      "Before working with them, we were reacting to reports. Now we have dashboards that tell us what will happen next week - not what happened last week.",
     attribution: "CMO",
     org: "Home decor eCommerce brand",
   },

@@ -9,7 +9,7 @@ const apiCapabilities = [
   { icon: CheckCircle, title: "Legacy API Re-engineering", desc: "Refactor outdated SOAP/XML, monolithic, or on-prem APIs into RESTful or GraphQL services built for cloud and mobile-first environments." },
   { icon: Layers, title: "Microservices & Containerized APIs", desc: "Decompose legacy platforms into containerized microservices using Docker, Kubernetes, and service mesh architecture." },
   { icon: Server, title: "API Gateway Setup & Governance", desc: "Implement centralized authentication, rate limiting, throttling, logging, and analytics with platforms like Kong, AWS API Gateway, or Apigee." },
-  { icon: Code, title: "GraphQL Adoption", desc: "Introduce GraphQL for flexible, client-driven data access across mobile and frontend teams — reducing over-fetching and under-fetching." },
+  { icon: Code, title: "GraphQL Adoption", desc: "Introduce GraphQL for flexible, client-driven data access across mobile and frontend teams - reducing over-fetching and under-fetching." },
   { icon: Zap, title: "CI/CD for API Deployment", desc: "Enable rapid deployment, versioning, rollback, and testing pipelines to ship APIs reliably and often." },
   { icon: CheckCircle, title: "Developer Experience (DX)", desc: "Design rich API documentation with Swagger/OpenAPI, Postman collections, and developer portals for easier adoption and onboarding." },
 ];
@@ -54,7 +54,7 @@ const APIModernization: React.FC = () => {
             </div>
             <h2 className="text-2xl md:text-3xl text-[#1E40AF] font-semibold mb-6 font-['Lexend']">Modern APIs. Future-Ready Systems.</h2>
             <p className="text-xl md:text-2xl text-slate-700 mb-10 font-['DM_Sans'] max-w-3xl mx-auto leading-relaxed">
-              We modernize legacy APIs and architect next-gen API ecosystems — enabling secure, scalable, and high-performance integrations that power digital transformation.
+              We modernize legacy APIs and architect next-gen API ecosystems - enabling secure, scalable, and high-performance integrations that power digital transformation.
             </p>
             <button className="bg-[#2563EB] hover:bg-[#1E40AF] text-white px-8 py-4 rounded-full font-semibold text-lg shadow-lg shadow-[#2563EB]/20 border-none focus:ring-2 focus:ring-[#2563EB]/50 transition-all duration-300">
               Request an API Audit

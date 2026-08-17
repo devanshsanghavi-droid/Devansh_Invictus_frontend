@@ -29,7 +29,7 @@ const toolCategories = ["All", "AWS", "GCP", "Azure", "Hybrid & Multi-cloud"];
 const capabilities = [
   { icon: Settings, title: "Assessment & Strategy", desc: "Analyze existing infrastructure, workloads, and data flows to develop a tailored migration roadmap aligned with your business goals." },
   { icon: Cloud, title: "Cloud Readiness & Planning", desc: "Ensure compatibility, scalability, and compliance for your workloads before migration with detailed dependency mapping and risk analysis." },
-  { icon: Zap, title: "Data Migration Execution", desc: "Execute secure, high-speed data transfers using validated methods — minimizing risk, latency, and business impact." },
+  { icon: Zap, title: "Data Migration Execution", desc: "Execute secure, high-speed data transfers using validated methods - minimizing risk, latency, and business impact." },
   { icon: Layers, title: "Application & Pipeline Migration", desc: "Migrate entire data pipelines, ETL workflows, and analytics applications to the cloud, ensuring seamless function continuity." },
   { icon: ArrowRight, title: "Zero-Downtime Cutover", desc: "Implement blue-green or phased deployments with real-time sync and validation to achieve uninterrupted transitions." },
   { icon: Shield, title: "Post-Migration Optimization", desc: "Tune cloud infrastructure, enable monitoring, and set up auto-scaling, cost controls, and disaster recovery for long-term performance." },
@@ -98,7 +98,7 @@ const CloudDataMigration: React.FC = () => {
               <div className="text-slate-900 text-3xl md:text-4xl font-semibold tracking-wide mb-6 unbounded">Cloud Data Migration</div>
               <div className="text-[#1E40AF] text-xl md:text-2xl font-semibold tracking-wide mb-6 unbounded">Seamless, Secure Migration with Zero Downtime</div>
               <div className="text-slate-800 text-base md:text-lg font-normal max-w-xl">
-              End-to-end cloud data operations — from orchestration to monitoring — for always-on, optimized data systems.
+              End-to-end cloud data operations - from orchestration to monitoring - for always-on, optimized data systems.
               </div>
           </div>
           </div>
@@ -158,7 +158,7 @@ const CloudDataMigration: React.FC = () => {
                 <section className="w-full flex flex-col items-center justify-center py-2 px-6 max-w-7xl mx-auto">
           <div className="w-full bg-white rounded-3xl p-8 md:p-12 flex flex-col gap-4">
             <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-2 unbounded">Move to the Cloud with Confidence</h2>
-            <div className="text-base md:text-lg text-slate-600 mb-6">We specialize in secure, efficient, and disruption-free data migrations — whether you're transitioning from on-prem to cloud, moving between cloud platforms, or modernizing legacy systems. Our migration strategy ensures data integrity, performance continuity, and zero operational downtime.<br/>From planning to execution and post-migration optimization, we handle the entire lifecycle so your teams can focus on growth, not infrastructure.
+            <div className="text-base md:text-lg text-slate-600 mb-6">We specialize in secure, efficient, and disruption-free data migrations - whether you're transitioning from on-prem to cloud, moving between cloud platforms, or modernizing legacy systems. Our migration strategy ensures data integrity, performance continuity, and zero operational downtime.<br/>From planning to execution and post-migration optimization, we handle the entire lifecycle so your teams can focus on growth, not infrastructure.
             </div>
           </div>
         </section>
@@ -216,7 +216,7 @@ const CloudDataMigration: React.FC = () => {
         <section className="w-full py-20 px-6  relative overflow-hidden">
           <div className="max-w-3xl mx-auto text-center relative z-10">
             <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4 font-['Lexend']">Ready to Migrate Smarter?</h2>
-            <p className="text-xl text-slate-700 mb-8 font-['DM_Sans']">Let’s plan your cloud journey — safely, securely, and without downtime.</p>
+            <p className="text-xl text-slate-700 mb-8 font-['DM_Sans']">Let’s plan your cloud journey - safely, securely, and without downtime.</p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
               <button className="border-2 border-[#93C5FD] text-[#1E40AF] px-8 py-4 rounded-xl font-semibold text-lg hover:bg-[#2563EB]/10 transition-all duration-300" onClick={() => navigate('/schedule-consultation')}>Let's Talk</button>
             </div>

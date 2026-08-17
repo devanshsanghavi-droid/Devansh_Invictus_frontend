@@ -29,7 +29,7 @@ const caseStudies: CaseStudy[] = [
     challenge:
       "The client was struggling with fragmented customer data across their online store, retail outlets, CRM, and marketing tools. This data siloing made personalization and campaign targeting inefficient.",
     solution:
-      "We built a centralized Customer Data Lake using Snowflake, Apache Kafka, and dbt — integrating data from 8+ systems and enabling real-time identity resolution.",
+      "We built a centralized Customer Data Lake using Snowflake, Apache Kafka, and dbt - integrating data from 8+ systems and enabling real-time identity resolution.",
     outcome: [
       "40% improvement in personalization accuracy",
       "3× faster campaign segmentation",

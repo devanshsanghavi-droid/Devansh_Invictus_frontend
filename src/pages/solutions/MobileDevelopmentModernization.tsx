@@ -29,7 +29,7 @@ const tools = [
 const toolCategories = ["All", "Native", "Cross-Platform", "UI Libraries", "Backend Integration", "DevOps Tools", "Testing & QA"];
 
 const capabilities = [
-  { icon: Smartphone, title: "Native & Cross-Platform App Development", desc: "Build secure, high-performance apps using Swift, Kotlin, Flutter, or React Native — tailored to your goals and tech stack preferences." },
+  { icon: Smartphone, title: "Native & Cross-Platform App Development", desc: "Build secure, high-performance apps using Swift, Kotlin, Flutter, or React Native - tailored to your goals and tech stack preferences." },
   { icon: ArrowRight, title: "Legacy App Modernization", desc: "Refactor, re-architect, or rewrite outdated mobile apps to improve performance, maintainability, and user experience." },
   { icon: Layers, title: "UI/UX Revamp & Optimization", desc: "Redesign interfaces using modern design principles and frameworks like Material You or iOS Human Interface Guidelines for better engagement and usability." },
   { icon: Cloud, title: "Scalable Mobile Architecture", desc: "Implement modular, future-ready mobile app architectures that support rapid iteration, multi-team collaboration, and feature scalability." },
@@ -105,7 +105,7 @@ const MobileDevelopmentModernization: React.FC = () => {
               <div className="text-slate-900 text-3xl md:text-4xl font-semibold tracking-wide mb-6 unbounded">Mobile Development & Modernization</div>
               <div className="text-[#1E40AF] text-xl md:text-2xl font-semibold tracking-wide mb-6 unbounded">Build, Modernize, and Scale High-Performance Mobile Experiences</div>
               <div className="text-slate-800 text-base md:text-lg font-normal max-w-xl">
-                From iOS and Android to Flutter and React Native — we design, develop, and modernize mobile applications that are scalable, user-centric, and aligned with your business vision.
+                From iOS and Android to Flutter and React Native - we design, develop, and modernize mobile applications that are scalable, user-centric, and aligned with your business vision.
               </div>
             </div>
           </div>
@@ -165,7 +165,7 @@ const MobileDevelopmentModernization: React.FC = () => {
           <section className="w-full flex flex-col items-center justify-center py-2 px-6 max-w-7xl mx-auto">
           <div className="w-full bg-white rounded-3xl p-8 md:p-12 flex flex-col gap-4">
             <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-2 unbounded">Future-Proof Your Mobile Presence</h2>
-            <div className="text-base md:text-lg text-slate-600 mb-6">Whether you're starting from scratch or looking to modernize a legacy app, we bring the right blend of design thinking, performance optimization, and cross-platform expertise. Our team builds mobile solutions that are intuitive, fast, secure — and ready to evolve with every OS update and user expectation.<br/>From sleek UI to resilient backend integration, we ensure your app delivers on both form and function — now and in the future.
+            <div className="text-base md:text-lg text-slate-600 mb-6">Whether you're starting from scratch or looking to modernize a legacy app, we bring the right blend of design thinking, performance optimization, and cross-platform expertise. Our team builds mobile solutions that are intuitive, fast, secure - and ready to evolve with every OS update and user expectation.<br/>From sleek UI to resilient backend integration, we ensure your app delivers on both form and function - now and in the future.
             </div>
           </div>
         </section>
@@ -223,7 +223,7 @@ const MobileDevelopmentModernization: React.FC = () => {
         <section className="w-full py-20 px-6  relative overflow-hidden">
           <div className="max-w-3xl mx-auto text-center relative z-10">
             <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4 font-['Lexend']">Ready to Build or Modernize Your Mobile App?</h2>
-            <p className="text-xl text-slate-700 mb-8 font-['DM_Sans']">Let’s create a mobile experience your users will love — and your business can grow with.</p>
+            <p className="text-xl text-slate-700 mb-8 font-['DM_Sans']">Let’s create a mobile experience your users will love - and your business can grow with.</p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
               <button className="border-2 border-[#93C5FD] text-[#1E40AF] px-8 py-4 rounded-xl font-semibold text-lg hover:bg-[#2563EB]/10 transition-all duration-300" onClick={() => navigate('/schedule-consultation')}>Schedule a Mobile Audit</button>
             </div>

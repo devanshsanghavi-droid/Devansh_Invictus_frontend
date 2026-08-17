@@ -9,7 +9,7 @@ const leaders = [
     title: "Chief Executive Officer",
     img: "https://assets.channeliq.ai/invictus-landing/Leadership/Nirjar.png",
     alt: "Nirjar Sanghavi photo",
-    desc: `Nirjar Sanghavi is a strategic leader with over 20 years of experience driving growth and innovation at the crossroads of data, engineering, and marketing within global technology organizations. As CEO of Invictus Data, he architects the company's strategic roadmap, advancing innovation in AI, data monetization, and platform engineering.\n\nRenowned for his ability to operationalize vision, Nirjar has held senior leadership roles at Samsung, Groupon, eBay, PayPal, and JPMorgan Chase—where he scaled enterprise-grade data ecosystems that accelerated growth and competitive differentiation. His leadership philosophy centers on customer-obsessed innovation, cross-functional synergy, and cultivating high-performance cultures that deliver sustained enterprise value.`
+    desc: `Nirjar Sanghavi is a strategic leader with over 20 years of experience driving growth and innovation at the crossroads of data, engineering, and marketing within global technology organizations. As CEO of Invictus Data, he architects the company's strategic roadmap, advancing innovation in AI, data monetization, and platform engineering.\n\nRenowned for his ability to operationalize vision, Nirjar has held senior leadership roles at Samsung, Groupon, eBay, PayPal, and JPMorgan Chase, where he scaled enterprise-grade data ecosystems that accelerated growth and competitive differentiation. His leadership philosophy centers on customer-obsessed innovation, cross-functional synergy, and cultivating high-performance cultures that deliver sustained enterprise value.`
   },
   {
     name: "Ram Duraipandian",
@@ -37,7 +37,7 @@ const leaders = [
     title: "Head of Engineering",
     img: "https://assets.channeliq.ai/invictus-landing/Leadership/Imay.png",
     alt: "Imay Selvan Ramkrishnan photo",
-    desc: `As Head of Engineering at INVICTUS DATA, Imay Selvan Ramkrishnan brings over 14 years of expertise in software engineering and architectural leadership. He leads the design and delivery of scalable, distributed systems, driving innovation and technical excellence across teams. Imay is passionate about building high-performing engineering cultures through a focus on code quality, strategic empowerment, and alignment with business objectives—delivering resilient, future-ready technology solutions.`
+    desc: `As Head of Engineering at INVICTUS DATA, Imay Selvan Ramkrishnan brings over 14 years of expertise in software engineering and architectural leadership. He leads the design and delivery of scalable, distributed systems, driving innovation and technical excellence across teams. Imay is passionate about building high-performing engineering cultures through a focus on code quality, strategic empowerment, and alignment with business objectives, delivering resilient, future-ready technology solutions.`
   },
   {
     name: "Om Rathod",
@@ -85,7 +85,7 @@ const LeadershipTeam: React.FC = () => {
           <h1 className="text-4xl md:text-5xl font-bold text-slate-900 mb-8 mt-24 unbounded text-center">Leadership Team</h1>
           <h2 className="text-2xl md:text-3xl text-[#2563EB] font-semibold mb-6 unbounded text-center">Vision. Expertise. Execution.</h2>
           <p className="text-xl text-slate-700 mb-16 max-w-4xl text-center">
-            At Invictus Data, our leadership combines deep industry knowledge with a relentless drive for innovation — guiding high-impact teams at every level.
+            At Invictus Data, our leadership combines deep industry knowledge with a relentless drive for innovation - guiding high-impact teams at every level.
           </p>
           
           {/* Leadership Cards Grid */}

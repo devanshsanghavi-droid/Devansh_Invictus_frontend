@@ -192,7 +192,7 @@ const AIStrategyDiscovery: React.FC = () => {
         <section className="w-full py-20 px-6  relative overflow-hidden">
           <div className="max-w-3xl mx-auto text-center relative z-10">
             <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4 font-['Lexend']">Ready to Define Your AI Roadmap?</h2>
-            <p className="text-xl text-slate-700 mb-8 font-['DM_Sans']">Let’s unlock the full potential of AI for your business—starting with a clear strategy.</p>
+            <p className="text-xl text-slate-700 mb-8 font-['DM_Sans']">Let’s unlock the full potential of AI for your business, starting with a clear strategy.</p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
               <CustomButton size="lg" className="border-2 border-[#93C5FD] text-[#1E40AF] px-8 py-4 rounded-xl font-semibold text-lg bg-transparent hover:bg-[#2563EB]/10 transition-all duration-300" onClick={() => navigate('/schedule-consultation')}>Talk to an AI Strategist</CustomButton>
             </div>

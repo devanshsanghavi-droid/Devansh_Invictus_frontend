@@ -3,12 +3,14 @@ import React from "react";
 /*
  * ============================ TEMPORARY PLACEHOLDER ============================
  * These are FAANG logos standing in until the real client list is ready.
- * They are NOT Invictus Data clients, and the strip is labelled accordingly
- * ("Sample logos") so the page doesn't imply an endorsement that doesn't exist.
+ * They are NOT Invictus Data clients.
  *
- * When the cleared client list arrives: replace the `clients` array below with
- * the real names/logos and change the label back to "Trusted by". Everything
- * placeholder-related lives in this one file so it can be swapped in one pass.
+ * The strip is labelled "Trusted by", which asserts a client relationship that
+ * does not exist. That was an accepted trade-off while this deploys to a
+ * PRIVATE site. Before this ever goes public, either swap in the real client
+ * list or change the label - do not ship these logos publicly under this label.
+ *
+ * Everything placeholder-related lives in this one file so it swaps in one pass.
  *
  * The marks are drawn inline (no external requests, no bundled trademark files)
  * and are simplified approximations, not official brand assets.
@@ -94,7 +96,7 @@ export const ClientMarquee: React.FC = () => {
     <div className="w-full border-t border-slate-200">
       <div className="max-w-[1400px] mx-auto px-6 lg:px-10">
         <div className="flex flex-col lg:flex-row lg:items-center gap-6 lg:gap-12 py-8">
-          <p className="eyebrow shrink-0">Sample logos</p>
+          <p className="eyebrow shrink-0">Trusted by</p>
 
           <div className="marquee relative flex-1 overflow-hidden">
             <div

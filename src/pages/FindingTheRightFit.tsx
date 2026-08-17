@@ -12,7 +12,7 @@ const FindingTheRightFit: React.FC = () => {
     {
       icon: <GraduationCap className="w-6 h-6" />,
       title: "What degrees or training do I need to work at Invictus Data?",
-      content: "We don't believe in one-size-fits-all. While some roles may require specific technical degrees or certifications, many do not. We evaluate your full experience, skill set, and potential — not just a diploma.",
+      content: "We don't believe in one-size-fits-all. While some roles may require specific technical degrees or certifications, many do not. We evaluate your full experience, skill set, and potential - not just a diploma.",
       details: "Each job posting will clearly outline role-specific requirements."
     },
     {

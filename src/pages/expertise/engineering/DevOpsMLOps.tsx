@@ -48,7 +48,7 @@ const DevOpsMLOps: React.FC = () => {
               </div>
               
               <p className="text-xl font-['DM_Sans'] text-slate-600 max-w-3xl mx-auto leading-relaxed">
-                From Code to Deployment—Seamlessly
+                From Code to Deployment, Seamlessly
               </p>
             </div>
 

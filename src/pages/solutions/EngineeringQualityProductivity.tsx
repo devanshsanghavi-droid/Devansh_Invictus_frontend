@@ -9,7 +9,7 @@ const capabilities = [
   { icon: Settings, title: "Developer Workflow Optimization", desc: "Streamline dev environments, branching strategies, and tooling to reduce context switching and deployment friction." },
   { icon: CheckCircle, title: "Code Quality Standards", desc: "Enforce best practices like linting, static analysis, code reviews, and modular design to improve code maintainability and reduce tech debt." },
   { icon: Zap, title: "Automated Testing Infrastructure", desc: "Implement unit, integration, end-to-end, and regression testing with frameworks like PyTest, Jest, Cypress, and Appium." },
-  { icon: BarChart2, title: "CI/CD Pipeline Enablement", desc: "Automate the entire build, test, and deployment process using GitHub Actions, GitLab CI, CircleCI, or Jenkins — ensuring fast and safe releases." },
+  { icon: BarChart2, title: "CI/CD Pipeline Enablement", desc: "Automate the entire build, test, and deployment process using GitHub Actions, GitLab CI, CircleCI, or Jenkins - ensuring fast and safe releases." },
   { icon: Users, title: "Collaborative Dev Practices", desc: "Promote agile ceremonies, shared ownership, pair programming, and feedback loops to foster high-performing teams." },
   { icon: TrendingUp, title: "Performance Metrics & Developer Insights", desc: "Track lead time, PR velocity, deployment frequency, code churn, and DORA metrics to continuously improve engineering health." },
 ];
@@ -107,7 +107,7 @@ const EngineeringQualityProductivity: React.FC = () => {
               <div className="text-slate-900 text-3xl md:text-4xl font-semibold tracking-wide mb-6 unbounded">Engineering Quality & Productivity</div>
               <div className="text-[#1E40AF] text-xl md:text-2xl font-semibold tracking-wide mb-6 unbounded">Accelerating Delivery Without Compromising Quality</div>
               <div className="text-slate-800 text-base md:text-lg font-normal max-w-xl">
-                We help teams deliver faster by streamlining workflows, enforcing standards, and automating across the SDLC—without sacrificing quality.
+                We help teams deliver faster by streamlining workflows, enforcing standards, and automating across the SDLC, without sacrificing quality.
               </div>
             </div>
           </div>
@@ -165,7 +165,7 @@ const EngineeringQualityProductivity: React.FC = () => {
         <section className="w-full flex flex-col items-center justify-center py-2 px-6 max-w-7xl mx-auto">
           <div className="w-full bg-white rounded-3xl p-8 md:p-12 flex flex-col gap-4">
             <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-2 unbounded">High Velocity Meets High Standards</h2>
-            <div className="text-base md:text-lg text-slate-600 mb-6">We help teams deliver faster by streamlining workflows, enforcing standards, and automating across the SDLC—without sacrificing quality.</div>
+            <div className="text-base md:text-lg text-slate-600 mb-6">We help teams deliver faster by streamlining workflows, enforcing standards, and automating across the SDLC, without sacrificing quality.</div>
           </div>
         </section>
         {/* Use Cases Section */}
@@ -219,7 +219,7 @@ const EngineeringQualityProductivity: React.FC = () => {
         <section className="w-full py-20 px-6  relative overflow-hidden">
           <div className="max-w-3xl mx-auto text-center relative z-10">
             <h2 className="text-4xl md:text-5xl font-bold text-slate-900 mb-4 font-['Lexend']">Ship Better. Ship Faster.</h2>
-            <p className="text-xl text-slate-700 mb-8 font-['DM_Sans']">Let’s scale your engineering excellence — from local dev to global delivery.</p>
+            <p className="text-xl text-slate-700 mb-8 font-['DM_Sans']">Let’s scale your engineering excellence - from local dev to global delivery.</p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
               <button className="border-2 border-[#93C5FD] text-[#1E40AF] px-8 py-4 rounded-xl font-semibold text-lg hover:bg-[#2563EB]/10 transition-all duration-300" onClick={() => navigate('/schedule-consultation')}>Talk to a Productivity Expert</button>
             </div>

@@ -6,7 +6,7 @@ import React, { useState, useRef, useEffect } from "react";
 const faqData = [
   {
     question: "Why is Invictus Data a great place to start or grow my career?",
-    answer: `Invictus Data offers more than a job — it's a launchpad for growth. Whether you're an intern, a recent grad, or a senior engineer, you'll have access to:
+    answer: `Invictus Data offers more than a job - it's a launchpad for growth. Whether you're an intern, a recent grad, or a senior engineer, you'll have access to:
 
 • Global exposure across industries and functions
 • Continuous learning through structured training and mentorship  
@@ -16,7 +16,7 @@ We're also consistently recognized as a Great Place to Work, with awards for our
   },
   {
     question: "What is a typical workday like?",
-    answer: `There's no one-size-fits-all day at Invictus Data — and that's a good thing. Depending on your role, you might be:
+    answer: `There's no one-size-fits-all day at Invictus Data - and that's a good thing. Depending on your role, you might be:
 
 • Pair programming or collaborating on cloud deployments
 • Participating in daily standups or client sprint reviews
@@ -98,7 +98,7 @@ const FAQ: React.FC = () => {
             Frequently Asked Questions
         </h1>
           <p className="text-xl text-slate-700 mb-12 text-center">
-            Your most-asked questions — answered. Thinking about starting your journey at Invictus Data? Here are some of the things future team members ask us most.
+            Your most-asked questions - answered. Thinking about starting your journey at Invictus Data? Here are some of the things future team members ask us most.
           </p>
 
           <div className="space-y-4">

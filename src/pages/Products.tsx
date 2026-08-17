@@ -6,7 +6,7 @@ import Seo from "@/components/Seo";
 
 /*
  * Each panel deliberately carries its own product's brand look rather than the
- * site's editorial palette — Trivas' starfield navy, Nexus' teal-to-orange.
+ * site's editorial palette - Trivas' starfield navy, Nexus' teal-to-orange.
  * This is an intentional exception to the site design rules in CLAUDE.md.
  */
 
@@ -25,7 +25,7 @@ const Products: React.FC = () => {
   return (
     <>
       <Seo
-        title="Products — Invictus Data"
+        title="Products - Invictus Data"
         description="Trivas, Nexus, and Spectra: the AI analytics, B2B CRM, and data ingestion products built and operated by Invictus Data."
         keywords="Trivas, Nexus, Spectra, AI analytics platform, B2B CRM, data ingestion, Invictus Data products"
       />
@@ -45,7 +45,7 @@ const Products: React.FC = () => {
               <div className="lg:col-span-7 lg:pt-16">
                 <p className="text-lg md:text-xl leading-relaxed text-slate-600 max-w-2xl">
                   We build and operate the software our engagements run on. Each
-                  product stands alone, and they compose — ingest with Spectra,
+                  product stands alone, and they compose - ingest with Spectra,
                   analyse with Trivas, act in Nexus.
                 </p>
               </div>
@@ -212,11 +212,11 @@ const Products: React.FC = () => {
                       },
                       {
                         title: "Accounts you can trust",
-                        body: "Contacts, organizations and deals — clean, deduped and connected.",
+                        body: "Contacts, organizations and deals - clean, deduped and connected.",
                       },
                       {
                         title: "Reports that reconcile",
-                        body: "Forecast vs plan, variance and GP% — to the dollar.",
+                        body: "Forecast vs plan, variance and GP% - to the dollar.",
                       },
                     ].map((item) => (
                       <li key={item.title} className="flex gap-3">
@@ -271,7 +271,7 @@ const Products: React.FC = () => {
                   </h2>
                   <p className="text-[15px] leading-relaxed text-slate-600 mb-8">
                     Ingest, validate, and route data from any source into your
-                    warehouse — reliably and at scale.
+                    warehouse - reliably and at scale.
                   </p>
 
                   <ul className="space-y-2.5 mb-10">
@@ -284,7 +284,7 @@ const Products: React.FC = () => {
                         key={item}
                         className="flex gap-3 text-sm text-slate-600"
                       >
-                        <span className="text-slate-300 select-none">—</span>
+                        <span className="text-slate-300 select-none">-</span>
                         {item}
                       </li>
                     ))}

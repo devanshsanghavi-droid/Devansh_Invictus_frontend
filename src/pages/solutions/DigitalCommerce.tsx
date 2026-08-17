@@ -8,7 +8,7 @@ import Seo from "@/components/Seo";
 const funnelCapabilities = [
   { icon: TrendingUp, title: "Funnel Auditing & Drop-Off Analysis", desc: "Map the user journey from entry to conversion and identify weak spots in the funnel using behavioral data, heatmaps, and user flows." },
   { icon: UserCheck, title: "UX/UI Enhancements", desc: "Revise page layouts, CTAs, form elements, navigation, and product displays to improve visual hierarchy and usability." },
-  { icon: Gauge, title: "Page Speed & Performance Optimization", desc: "Improve load times, Core Web Vitals, and responsiveness — especially for mobile users — using lazy loading, code splitting, and CDN tuning." },
+  { icon: Gauge, title: "Page Speed & Performance Optimization", desc: "Improve load times, Core Web Vitals, and responsiveness - especially for mobile users - using lazy loading, code splitting, and CDN tuning." },
   { icon: FlaskConical, title: "A/B & Multivariate Testing", desc: "Implement and run experiments to measure the impact of different variations on conversion rates, bounce rates, and cart completions." },
   { icon: MousePointerClick, title: "Checkout & Cart Optimization", desc: "Streamline cart interactions, simplify checkout flows, enable guest checkouts, and remove distractions that cause abandonment." },
   { icon: Layers, title: "Personalized Experiences", desc: "Serve tailored content, offers, and messages to different segments using intent-based triggers and audience targeting." }
@@ -41,7 +41,7 @@ const funnelUseCases = [
 
 // --- Customer Analytics Data ---
 const analyticsCapabilities = [
-  { icon: BarChart2, title: "Customer Journey Mapping", desc: "Track and visualize how customers move across touchpoints — from discovery to purchase to re-engagement." },
+  { icon: BarChart2, title: "Customer Journey Mapping", desc: "Track and visualize how customers move across touchpoints - from discovery to purchase to re-engagement." },
   { icon: PieChart, title: "Behavioral Segmentation", desc: "Group users by actions, preferences, and lifecycle stages to enable targeting and tailored experiences." },
   { icon: Repeat, title: "Churn & Retention Analysis", desc: "Identify churn patterns, engagement gaps, and retention drivers to reduce customer loss and increase lifetime value." },
   { icon: DollarSign, title: "RFM & LTV Modeling", desc: "Use Recency-Frequency-Monetary (RFM) analysis and predictive LTV modeling to identify your most valuable customer segments." },
@@ -115,7 +115,7 @@ const omniUseCases = [
 // --- Marketplace Integration & Management Data ---
 const marketplaceCapabilities = [
   { icon: Layers, title: "Multi-Channel Platform Integration", desc: "Connect your ERP, inventory systems, and POS to leading marketplaces using secure APIs and real-time sync." },
-  { icon: Repeat, title: "Order & Inventory Synchronization", desc: "Ensure stock levels, pricing, and availability are always up to date — reducing overselling and manual effort." },
+  { icon: Repeat, title: "Order & Inventory Synchronization", desc: "Ensure stock levels, pricing, and availability are always up to date - reducing overselling and manual effort." },
   { icon: BarChart2, title: "Centralized Dashboard", desc: "Get a unified view of orders, returns, shipping, and pricing across all platforms with real-time alerts and filters." },
   { icon: Gauge, title: "Fulfillment & Logistics Coordination", desc: "Automate order routing, fulfillment partner coordination, and returns management across warehouses or regions." },
   { icon: CheckCircle2, title: "Marketplace Compliance & SEO", desc: "Optimize listings, meet platform-specific guidelines, and track search and placement performance." }

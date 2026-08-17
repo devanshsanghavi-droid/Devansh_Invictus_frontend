@@ -18,7 +18,7 @@ export const whitepapers: Whitepaper[] = [
         slug: "designing-ai-ready-data-platforms",
         title: "Designing AI-Ready Data Platforms",
         overview:
-            "A practical guide for designing and modernizing enterprise data platforms that are optimized for AI use cases — from ingestion to governance to LLM readiness.",
+            "A practical guide for designing and modernizing enterprise data platforms that are optimized for AI use cases - from ingestion to governance to LLM readiness.",
         content: (
             <>
                 <p className="mb-4">
@@ -59,7 +59,7 @@ export const whitepapers: Whitepaper[] = [
         slug: "llms-in-enterprise",
         title: "LLMs in Enterprise: From Prototype to Production",
         overview:
-            "An actionable playbook for businesses looking to responsibly deploy and scale Large Language Models (LLMs) in production — covering architecture, safety, and system design.",
+            "An actionable playbook for businesses looking to responsibly deploy and scale Large Language Models (LLMs) in production - covering architecture, safety, and system design.",
         content: (
             <>
                 <p className="mb-4">

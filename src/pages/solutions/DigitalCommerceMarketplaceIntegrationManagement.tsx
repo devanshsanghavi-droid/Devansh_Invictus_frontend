@@ -6,7 +6,7 @@ import Navbar from "@/components/layout/Navbar";
 
 const marketplaceCapabilities = [
   { icon: Layers, title: "Multi-Channel Platform Integration", desc: "Connect your ERP, inventory systems, and POS to leading marketplaces using secure APIs and real-time sync." },
-  { icon: Repeat, title: "Order & Inventory Synchronization", desc: "Ensure stock levels, pricing, and availability are always up to date — reducing overselling and manual effort." },
+  { icon: Repeat, title: "Order & Inventory Synchronization", desc: "Ensure stock levels, pricing, and availability are always up to date - reducing overselling and manual effort." },
   { icon: BarChart2, title: "Centralized Dashboard", desc: "Get a unified view of orders, returns, shipping, and pricing across all platforms with real-time alerts and filters." },
   { icon: Gauge, title: "Fulfillment & Logistics Coordination", desc: "Automate order routing, fulfillment partner coordination, and returns management across warehouses or regions." },
   { icon: CheckCircle2, title: "Marketplace Compliance & SEO", desc: "Optimize listings, meet platform-specific guidelines, and track search and placement performance." }
@@ -35,7 +35,7 @@ const DigitalCommerceMarketplaceIntegrationManagement: React.FC = () => {
             <h1 className="text-4xl md:text-5xl font-bold text-slate-900 font-['Lexend'] mb-4">Marketplace Integration & Management</h1>
             <h2 className="text-2xl md:text-3xl text-[#1E40AF] font-semibold mb-6 font-['Lexend']">Connect, Sync & Scale Across All Major Marketplaces</h2>
             <p className="text-xl md:text-2xl text-slate-700 mb-10 font-['DM_Sans'] max-w-3xl mx-auto leading-relaxed">
-              We seamlessly integrate your operations with platforms like Amazon, Walmart, Shopify, and Flipkart — enabling real-time inventory, pricing, and order sync for streamlined multi-channel growth.
+              We seamlessly integrate your operations with platforms like Amazon, Walmart, Shopify, and Flipkart - enabling real-time inventory, pricing, and order sync for streamlined multi-channel growth.
             </p>
             <CustomButton size="lg" className="bg-[#2563EB] hover:bg-[#1E40AF] text-white border-none mb-4">
               Request a Demo

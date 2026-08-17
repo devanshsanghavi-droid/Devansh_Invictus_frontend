@@ -47,7 +47,7 @@ const MachineLearningMLOps: React.FC = () => {
               <div className="text-slate-900 text-3xl md:text-4xl font-semibold tracking-wide mb-6 unbounded">Machine Learning (MLOps)</div>
               <div className="text-[#1E40AF] text-xl md:text-2xl font-semibold tracking-wide mb-6 unbounded">End-to-End ML Lifecycle Automation</div>
               <div className="text-slate-800 text-base md:text-lg font-normal max-w-xl">
-                We automate the ML lifecycle—from data prep to deployment and monitoring. Our MLOps pipelines are scalable, reliable, and keep your AI running smoothly in production.
+                We automate the ML lifecycle, from data prep to deployment and monitoring. Our MLOps pipelines are scalable, reliable, and keep your AI running smoothly in production.
               </div>
             </div>
           </div>
@@ -56,7 +56,7 @@ const MachineLearningMLOps: React.FC = () => {
         <section className="w-full flex flex-col items-center justify-center py-2 px-6 max-w-7xl mx-auto">
           <div className="w-full bg-white rounded-3xl p-8 md:p-12 flex flex-col gap-4">
             <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-2 unbounded">Why MLOps?</h2>
-            <div className="text-base md:text-lg text-slate-600 mb-6">We automate the ML lifecycle—from data prep to deployment and monitoring. Our MLOps pipelines are scalable, reliable, and keep your AI running smoothly in production.</div>
+            <div className="text-base md:text-lg text-slate-600 mb-6">We automate the ML lifecycle, from data prep to deployment and monitoring. Our MLOps pipelines are scalable, reliable, and keep your AI running smoothly in production.</div>
           </div>
         </section>
         {/* Capabilities Section */}
