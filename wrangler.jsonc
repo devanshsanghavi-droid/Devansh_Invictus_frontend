@@ -1,0 +1,18 @@
+{
+  // Static-asset Worker for the Vite SPA build.
+  // `name` must match the Worker in the Cloudflare dashboard, otherwise
+  // `wrangler deploy` creates a second Worker instead of updating this one.
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "devansh-invictus-frontend",
+  "compatibility_date": "2026-01-01",
+
+  "assets": {
+    "directory": "./dist",
+
+    // React Router is client-side, so any deep link (/products, /solutions/...)
+    // hits the edge as a path with no matching file. Without this, those URLs
+    // 404 on direct load or refresh - they only work when navigated to in-app.
+    // "single-page-application" serves index.html for unmatched paths instead.
+    "not_found_handling": "single-page-application"
+  }
+}

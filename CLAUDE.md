@@ -87,6 +87,58 @@ npx tsc --noEmit -p tsconfig.app.json
   `components/ui/*` files. Don't treat them as caused by your change; do confirm your
   own touched files are absent from the list.
 
+## Deployment
+
+Deployed as a **Cloudflare Worker with static assets** (not Cloudflare Pages), via
+Workers Builds on push to `main`. Worker name: `devansh-invictus-frontend`.
+
+| Setting | Value |
+|---|---|
+| Build command | `npm run build` |
+| Deploy command | `npx wrangler deploy` |
+| Root directory | `/` |
+| Output | `dist/` (gitignored; built in CI) |
+
+### npm only - never commit a second lockfile
+
+The first deploy failed at the install step:
+
+```
+bun install --frozen-lockfile
+error: lockfile had changes, but lockfile is frozen
+```
+
+The repo carried **both** `bun.lockb` and `package-lock.json`. Cloudflare detects the
+package manager from whichever lockfile it finds, picked bun, and bun 1.2 wants to
+migrate the legacy binary `bun.lockb` to the newer text `bun.lock` format. That
+migration counts as a lockfile change, which `--frozen-lockfile` refuses.
+
+`bun.lockb` was deleted. **This project is npm-managed.** Do not run `bun install` or
+`yarn` here, and do not commit `bun.lockb` / `bun.lock` / `yarn.lock`. If a build ever
+fails at install again, check for a stray lockfile first. Verify locally with:
+
+```bash
+npm ci --dry-run     # must succeed; proves package-lock.json matches package.json
+```
+
+### wrangler.jsonc
+
+Two fields are load-bearing:
+
+- **`name`** must match the Worker in the dashboard. A mismatch silently creates a
+  *second* Worker rather than updating the existing one, and the live URL stays stale.
+- **`assets.not_found_handling: "single-page-application"`** is required. Routing is
+  client-side React Router, so deep links (`/products`, `/solutions/ecommerce`) arrive
+  at the edge as paths with no matching file. Without this they 404 on direct load and
+  on refresh, while still working when navigated to in-app - which makes it easy to
+  miss in casual testing.
+
+Validate config changes without deploying:
+
+```bash
+npm run build && npx wrangler deploy --dry-run
+```
+
 ## Known state
 
 - `SCHEDULE_WORKSHOP_URL` is a `#` placeholder in **both** `layout/Navbar.tsx` and
