@@ -73,7 +73,7 @@ const CustomDashboardsBI: React.FC = () => {
                 Tell better stories with real-time dashboards tailored to your KPIs, roles, and decisions.
               </p>
               <div className="w-16 h-16 bg-gradient-to-br from-[#3B82F6] to-[#2563EB] rounded-full flex items-center justify-center mx-auto mb-8">
-                <BarChart3 className="w-8 h-8 text-slate-900" />
+                <BarChart3 className="w-8 h-8 text-white" />
               </div>
             </div>
           </section>
@@ -93,7 +93,7 @@ const CustomDashboardsBI: React.FC = () => {
                       className="bg-white backdrop-blur-md border border-slate-200 rounded-xl p-6 hover:bg-white hover:border-[#3B82F6]/30 transition-all duration-300 group"
                     >
                       <div className="w-12 h-12 bg-gradient-to-br from-[#3B82F6] to-[#2563EB] rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                        <IconComponent className="w-6 h-6 text-slate-900" />
+                        <IconComponent className="w-6 h-6 text-white" />
                       </div>
                       <h3 className="text-lg font-semibold text-slate-900 mb-3 font-['Lexend']">
                         {capability.title}

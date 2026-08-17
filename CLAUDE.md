@@ -22,7 +22,6 @@ them is a regression, not a new idea:
 - Hover lift or grow: `hover:-translate-y-1`, `hover:scale-105`, `group-hover:scale-110`
 - Colored shadows (`shadow-xl shadow-[#2563EB]/10`) - use a 1px border instead
 - Scroll-triggered stagger: IntersectionObserver + `animate-slide-up` + `transitionDelay`
-- Animated count-up numbers (`react-countup`, hand-rolled `useCountUp`)
 - Full-page decorative backgrounds (Lottie, gradient body washes)
 - Centered-everything layouts; centered card text
 - Fabricated live-data claims ("Real-time metrics updated from active client projects")
@@ -55,6 +54,27 @@ Don't "fix" them:
   added, follow the same principle: match that product's brand, not this site's.
 - **`sections/ClientMarquee.tsx`** - a continuously scrolling client strip. Motion is
   the component. It pauses on hover and is disabled under `prefers-reduced-motion`.
+- **`ui/CountUp.tsx` in the Statistics band** - animated count-up figures. These were
+  originally removed as a generated-site tell, then explicitly asked for on 2026-08-17,
+  so the ban is reversed. Use the `CountUp` component, never a hook inside `.map()`
+  (the original implementation did exactly that and broke the rules of hooks). Revenue
+  starts at `from={1}` (=$1M) rather than 0 so it reads as growth.
+
+## Contrast
+
+Text colour must be chosen against the surface it actually lands on. A sweep on
+2026-08-17 fixed **69** places where dark text sat on a dark background, mostly:
+
+- `text-black` / `text-slate-900` icons inside `bg-gradient-to-br from-[#2563EB]` tiles
+- `text-slate-800` on `bg-[#181515]/90` panels (`solutions/Finance.tsx`, `Retail.tsx`)
+- the `/industries` page metric panels, which had `text-slate-900` on a blue gradient
+
+Two things to know when working here:
+
+1. **`group-hover:text-slate-900` on a light card is correct** - it pairs with a
+   background that also changes on hover. Don't "fix" those.
+2. When darkening a surface, re-check every descendant's text colour. The common
+   regression is darkening a card fill and leaving the icon dark.
 
 ## Typography
 

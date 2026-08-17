@@ -153,13 +153,14 @@ const Industries: React.FC = () => {
                           </div>
 
                           <div>
-                            <div className="text-4xl font-bold text-slate-900 mb-2 leading-none">
+                            {/* This panel sits on a dark gradient - text must be light. */}
+                            <div className="text-4xl font-bold text-white mb-2 leading-none">
                               {industry.mainMetric}
                             </div>
-                            <div className="text-xs font-semibold text-slate-800 uppercase tracking-wide mb-4">
+                            <div className="text-xs font-semibold text-white/90 uppercase tracking-wide mb-4">
                               {industry.mainMetricLabel}
                             </div>
-                            <p className="text-sm text-slate-600 leading-relaxed">
+                            <p className="text-sm text-white/80 leading-relaxed">
                               {industry.subText}
                             </p>
                           </div>

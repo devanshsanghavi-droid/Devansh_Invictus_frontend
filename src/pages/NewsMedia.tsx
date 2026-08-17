@@ -45,7 +45,7 @@ const NewsMedia: React.FC = () => (
           <div className="max-w-4xl mx-auto text-center">
             <div className="flex items-center justify-center gap-4 mb-6">
               <div className="w-16 h-16 bg-gradient-to-br from-[#2563EB] to-[#93C5FD] rounded-2xl flex items-center justify-center shadow-lg">
-                <Megaphone className="w-8 h-8 text-slate-900" />
+                <Megaphone className="w-8 h-8 text-white" />
               </div>
               <h1 className="text-4xl md:text-5xl font-bold text-slate-900 font-['Lexend']">News & Media</h1>
             </div>

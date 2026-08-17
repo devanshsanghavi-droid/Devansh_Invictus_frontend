@@ -40,7 +40,7 @@ const CloudInfrastructure: React.FC = () => {
             <div className="text-center mb-16">
               <div className="flex items-center justify-center gap-4 mb-6">
                 <div className="w-16 h-16 bg-gradient-to-br from-[#1E3A8A] via-[#2563EB] to-[#93C5FD] rounded-2xl flex items-center justify-center">
-                  <Cloud className="w-8 h-8 text-slate-900" />
+                  <Cloud className="w-8 h-8 text-white" />
                 </div>
                 <h1 className="text-4xl lg:text-5xl font-bold font-['Lexend'] text-slate-900">
                   Cloud Infrastructure
@@ -136,7 +136,7 @@ const CloudInfrastructure: React.FC = () => {
               <p className="text-slate-600 font-['DM_Sans'] mb-8 max-w-2xl mx-auto">
                 Let's discuss how we can build a robust cloud infrastructure for your business.
               </p>
-              <CustomButton size="lg" className="bg-gradient-to-r from-[#1E3A8A] via-[#2563EB] to-[#93C5FD] hover:from-[#1E3A8A]/80 hover:via-[#2563EB]/80 hover:to-[#93C5FD]/80 text-slate-900">
+              <CustomButton size="lg" className="bg-gradient-to-r from-[#1E3A8A] via-[#2563EB] to-[#93C5FD] hover:from-[#1E3A8A]/80 hover:via-[#2563EB]/80 hover:to-[#93C5FD]/80 text-white">
                 Explore Cloud Architectures
               </CustomButton>
             </div>
@@ -145,7 +145,7 @@ const CloudInfrastructure: React.FC = () => {
 
         {/* Sticky CTA */}
         <div className="fixed bottom-6 right-6 z-50">
-          <CustomButton className="bg-gradient-to-r from-[#1E3A8A] via-[#2563EB] to-[#93C5FD] shadow-2xl shadow-[#2563EB]/20 hover:scale-105 transition-transform duration-300 text-slate-900">
+          <CustomButton className="bg-gradient-to-r from-[#1E3A8A] via-[#2563EB] to-[#93C5FD] shadow-2xl shadow-[#2563EB]/20 hover:scale-105 transition-transform duration-300 text-white">
             Let's Talk
           </CustomButton>
         </div>

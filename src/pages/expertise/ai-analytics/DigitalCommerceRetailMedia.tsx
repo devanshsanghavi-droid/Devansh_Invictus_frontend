@@ -40,7 +40,7 @@ const DigitalCommerceRetailMedia: React.FC = () => {
             <div className="flex flex-col items-center text-center mb-16">
               <div className="flex items-center justify-center gap-4 mb-6 animate-fade-in">
                 <div className="w-20 h-20 bg-gradient-to-br from-[#1E3A8A] via-[#2563EB] to-[#93C5FD] rounded-3xl flex items-center justify-center shadow-2xl animate-pulse-slow">
-                  <ShoppingCart className="w-10 h-10 text-slate-900 animate-bounce" />
+                  <ShoppingCart className="w-10 h-10 text-white animate-bounce" />
                 </div>
                 <h1 className="text-5xl lg:text-6xl font-extrabold font-['Lexend'] text-slate-900 drop-shadow-lg">
                   Digital Commerce & Retail Media
@@ -147,7 +147,7 @@ const DigitalCommerceRetailMedia: React.FC = () => {
               <p className="text-slate-700 font-['DM_Sans'] mb-10 max-w-2xl mx-auto text-xl">
                 Let's discuss how we can implement this solution for your specific business needs.
               </p>
-              <CustomButton size="lg" className="bg-gradient-to-r from-[#1E3A8A] via-[#2563EB] to-[#93C5FD] hover:from-[#1E3A8A]/80 hover:via-[#2563EB]/80 hover:to-[#93C5FD]/80 text-slate-900 shadow-xl animate-pulse-slow text-2xl px-10 py-5 rounded-full">
+              <CustomButton size="lg" className="bg-gradient-to-r from-[#1E3A8A] via-[#2563EB] to-[#93C5FD] hover:from-[#1E3A8A]/80 hover:via-[#2563EB]/80 hover:to-[#93C5FD]/80 text-white shadow-xl animate-pulse-slow text-2xl px-10 py-5 rounded-full">
                 Explore eCommerce Analytics
               </CustomButton>
             </div>
@@ -156,7 +156,7 @@ const DigitalCommerceRetailMedia: React.FC = () => {
 
         {/* Sticky CTA */}
         <div className="fixed bottom-6 right-6 z-50 animate-fade-in">
-          <CustomButton className="bg-gradient-to-r from-[#1E3A8A] via-[#2563EB] to-[#93C5FD] shadow-2xl shadow-[#2563EB]/20 hover:scale-110 transition-transform duration-300 text-slate-900 animate-pulse-slow text-lg px-8 py-4 rounded-full">
+          <CustomButton className="bg-gradient-to-r from-[#1E3A8A] via-[#2563EB] to-[#93C5FD] shadow-2xl shadow-[#2563EB]/20 hover:scale-110 transition-transform duration-300 text-white animate-pulse-slow text-lg px-8 py-4 rounded-full">
             Let's Talk
           </CustomButton>
         </div>

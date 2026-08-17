@@ -77,7 +77,7 @@ const RetailCustomerExperiencePlatforms: React.FC = () => {
                 return (
                   <div key={cap.title} className="bg-white border border-slate-200 rounded-xl p-6 flex flex-col items-center text-center shadow-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 group">
                     <div className="w-12 h-12 bg-gradient-to-br from-[#2563EB] to-[#93C5FD] rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                      <Icon className="w-6 h-6 text-black" />
+                      <Icon className="w-6 h-6 text-white" />
                     </div>
                     <h3 className="text-lg font-semibold text-slate-900 mb-3 font-['Lexend']">{cap.title}</h3>
                     <p className="text-slate-600 text-sm font-['DM_Sans']">{cap.desc}</p>

@@ -66,7 +66,7 @@ const EngineeringScalableTeams: React.FC = () => {
             <div className="text-center mb-16">
               <div className="flex items-center justify-center gap-3 mb-6">
                 <div className="w-12 h-12 bg-gradient-to-br from-[#1E3A8A] via-[#2563EB] to-[#93C5FD] rounded-xl flex items-center justify-center">
-                  <Code className="w-6 h-6 text-slate-900" />
+                  <Code className="w-6 h-6 text-white" />
                 </div>
                 <h1 className="text-5xl font-bold font-['Lexend'] bg-gradient-to-r from-[#1E3A8A] via-[#2563EB] to-[#93C5FD] bg-clip-text text-transparent">
                   Engineering & Scalable Teams
@@ -141,7 +141,7 @@ const EngineeringScalableTeams: React.FC = () => {
                 Combine multiple engineering capabilities for end-to-end product development and team augmentation solutions.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <CustomButton size="lg" className="bg-gradient-to-r from-[#1E3A8A] via-[#2563EB] to-[#93C5FD] hover:from-[#1E3A8A]/80 hover:via-[#2563EB]/80 hover:to-[#93C5FD]/80 text-slate-900">
+                <CustomButton size="lg" className="bg-gradient-to-r from-[#1E3A8A] via-[#2563EB] to-[#93C5FD] hover:from-[#1E3A8A]/80 hover:via-[#2563EB]/80 hover:to-[#93C5FD]/80 text-white">
                   Explore All Solutions
                 </CustomButton>
                 <CustomButton variant="secondary" size="lg" className="border-[#2563EB] text-[#1E40AF] hover:bg-[#2563EB]/10">
@@ -154,7 +154,7 @@ const EngineeringScalableTeams: React.FC = () => {
 
         {/* Sticky CTA */}
         <div className="fixed bottom-6 right-6 z-50">
-          <CustomButton className="bg-gradient-to-r from-[#1E3A8A] via-[#2563EB] to-[#93C5FD] shadow-2xl shadow-[#2563EB]/20 hover:scale-105 transition-transform duration-300 text-slate-900">
+          <CustomButton className="bg-gradient-to-r from-[#1E3A8A] via-[#2563EB] to-[#93C5FD] shadow-2xl shadow-[#2563EB]/20 hover:scale-105 transition-transform duration-300 text-white">
             Let's Talk
           </CustomButton>
         </div>

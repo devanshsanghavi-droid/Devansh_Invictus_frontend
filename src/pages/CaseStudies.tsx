@@ -210,7 +210,7 @@ const CaseStudies: React.FC = () => {
 
       {/* Case Study Detail Modal */}
       <Dialog open={!!selectedCaseStudy} onOpenChange={(open) => !open && setSelectedCaseStudy(null)}>
-        <DialogContent className="bg-[#1a1a1a] border border-[#2563EB]/30 text-slate-900 max-w-3xl max-h-[90vh] overflow-y-auto">
+        <DialogContent className="bg-[#1a1a1a] border border-[#2563EB]/30 text-white max-w-3xl max-h-[90vh] overflow-y-auto">
           <DialogHeader>
             <DialogTitle className="text-2xl font-bold font-['Lexend'] text-[#2563EB] mb-1">
               {selectedCaseStudy?.title}

@@ -375,7 +375,7 @@ const DigitalCommerce: React.FC = () => {
                   return (
                     <div key={index} className="bg-white backdrop-blur-xl rounded-xl p-6 border border-slate-200 hover:border-[#3B82F6]/30 transition-all duration-300">
                       <div className="w-12 h-12 bg-gradient-to-br from-[#3B82F6] to-[#2563EB] rounded-lg flex items-center justify-center mb-4">
-                        <IconComponent className="w-6 h-6 text-slate-900" />
+                        <IconComponent className="w-6 h-6 text-white" />
                       </div>
                       <h4 className="text-lg font-semibold text-slate-900 mb-3 font-['Lexend']">{capability.title}</h4>
                       <p className="text-slate-600 text-sm font-['DM_Sans']">{capability.desc}</p>
@@ -440,7 +440,7 @@ const DigitalCommerce: React.FC = () => {
                 return (
                   <div key={index} className="bg-white backdrop-blur-xl rounded-2xl p-8 border border-slate-200 hover:border-[#3B82F6]/30 transition-all duration-300">
                     <div className="w-12 h-12 bg-gradient-to-br from-[#3B82F6] to-[#2563EB] rounded-xl flex items-center justify-center mb-6">
-                      <IconComponent className="w-6 h-6 text-slate-900" />
+                      <IconComponent className="w-6 h-6 text-white" />
                     </div>
                     <h4 className="text-lg font-semibold text-slate-900 mb-2 font-['Lexend']">{story.company}</h4>
                     <p className="text-sm text-slate-600 mb-4 font-['DM_Sans']"><strong>Challenge:</strong> {story.challenge}</p>

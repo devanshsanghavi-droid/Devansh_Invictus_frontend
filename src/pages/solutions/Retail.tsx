@@ -101,7 +101,7 @@ const Retail: React.FC = () => {
                 Transform your retail operations with real-time visibility, AI-driven insights, automation, and mobile-first experiences, delivering agility, personalization, and efficiency at every touchpoint.
               </div>
               <div className="grid grid-cols-1 gap-4 w-full mt-auto">
-                <div className="bg-[#181515]/90 rounded-2xl p-4 text-slate-800 text-base font-medium text-center min-w-[240px] mx-auto">
+                <div className="bg-[#181515]/90 rounded-2xl p-4 text-white/90 text-base font-medium text-center min-w-[240px] mx-auto">
                   Supply Chain, CX, AI & Mobility
                 </div>
               </div>

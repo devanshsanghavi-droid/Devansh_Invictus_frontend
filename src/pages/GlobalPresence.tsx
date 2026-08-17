@@ -127,7 +127,7 @@ const GlobalPresence: React.FC = () => {
                            transition-all duration-500"
                 >
                   <div className="w-16 h-16 bg-gradient-to-br from-[#2563EB] to-[#3B82F6] rounded-2xl flex items-center justify-center mx-auto mb-6">
-                    <Icon className="w-8 h-8 text-slate-900" />
+                    <Icon className="w-8 h-8 text-white" />
                   </div>
                   <div className="text-3xl font-bold text-slate-900 mb-2">{stat.value}</div>
                   <div className="text-lg font-semibold text-slate-900 mb-2">{stat.label}</div>
@@ -165,7 +165,7 @@ const GlobalPresence: React.FC = () => {
                   <div className="flex items-center gap-3 mb-6">
                     <div className="w-12 h-12 bg-gradient-to-br from-[#2563EB] to-[#3B82F6] rounded-xl 
                                    flex items-center justify-center">
-                      <Building className="w-6 h-6 text-slate-900" />
+                      <Building className="w-6 h-6 text-white" />
                     </div>
                     <div>
                       <h3 className="text-xl font-bold text-slate-900">{office.name}</h3>
@@ -284,7 +284,7 @@ const GlobalPresence: React.FC = () => {
                 >
                   <div className="w-12 h-12 bg-gradient-to-br from-[#2563EB] to-[#3B82F6] rounded-xl 
                                  flex items-center justify-center mb-4">
-                    <Icon className="w-6 h-6 text-slate-900" />
+                    <Icon className="w-6 h-6 text-white" />
                   </div>
                   <h3 className="text-lg font-bold text-slate-900 mb-3">{item.title}</h3>
                   <p className="text-slate-600 text-sm leading-relaxed">{item.description}</p>

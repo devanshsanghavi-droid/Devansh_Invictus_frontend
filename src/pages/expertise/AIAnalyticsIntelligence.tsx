@@ -67,7 +67,7 @@ const AIAnalyticsIntelligence: React.FC = () => {
             <div className="text-center mb-16">
               <div className="flex items-center justify-center gap-3 mb-6">
                 <div className="w-12 h-12 bg-gradient-to-br from-[#1E3A8A] via-[#2563EB] to-[#93C5FD] rounded-xl flex items-center justify-center">
-                  <Brain className="w-6 h-6 text-slate-900" />
+                  <Brain className="w-6 h-6 text-white" />
                 </div>
                 <h1 className="text-5xl font-bold font-['Lexend'] bg-gradient-to-r from-[#1E3A8A] via-[#2563EB] to-[#93C5FD] bg-clip-text text-transparent">
                   AI & Analytics Intelligence
@@ -142,7 +142,7 @@ const AIAnalyticsIntelligence: React.FC = () => {
                 Combine multiple analytics tracks for comprehensive business intelligence that drives growth across all departments.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <button  className="bg-gradient-to-r from-[#1E3A8A] via-[#2563EB] to-[#93C5FD] hover:from-[#1E3A8A]/80 hover:via-[#2563EB]/80 hover:to-[#93C5FD]/80 text-slate-900">
+                <button  className="bg-gradient-to-r from-[#1E3A8A] via-[#2563EB] to-[#93C5FD] hover:from-[#1E3A8A]/80 hover:via-[#2563EB]/80 hover:to-[#93C5FD]/80 text-white">
                   Explore All Solutions
                 </button>
               </div>

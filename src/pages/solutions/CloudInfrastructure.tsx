@@ -73,7 +73,7 @@ const CloudInfrastructure: React.FC = () => {
                 Design scalable, secure, and cost-efficient cloud infrastructure with top-tier DevOps practices.
               </p>
               <div className="w-16 h-16 bg-gradient-to-br from-[#2563EB] to-[#93C5FD] rounded-full flex items-center justify-center mx-auto mb-8">
-                <Cloud className="w-8 h-8 text-black" />
+                <Cloud className="w-8 h-8 text-white" />
               </div>
             </div>
           </section>
@@ -93,7 +93,7 @@ const CloudInfrastructure: React.FC = () => {
                       className="bg-white backdrop-blur-md border border-slate-200 rounded-xl p-6 hover:bg-white hover:border-[#2563EB]/30 transition-all duration-300 group"
                     >
                       <div className="w-12 h-12 bg-gradient-to-br from-[#2563EB] to-[#93C5FD] rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                        <IconComponent className="w-6 h-6 text-black" />
+                        <IconComponent className="w-6 h-6 text-white" />
                       </div>
                       <h3 className="text-lg font-semibold text-slate-900 mb-3 font-['Lexend']">
                         {capability.title}

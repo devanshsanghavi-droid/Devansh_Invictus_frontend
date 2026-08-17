@@ -1,29 +1,44 @@
 import React from "react";
+import CountUp from "@/components/ui/CountUp";
+
+/*
+ * Figures animate up on first scroll into view. Every number here comes from a
+ * claim the site already makes elsewhere - the $74M is the revenue figure from
+ * the Finance & Fintech industry data. Do not add figures without a source.
+ */
+const stats = [
+  {
+    // Starts at $1M so the counter reads as growth rather than counting from nothing.
+    from: 1,
+    to: 74,
+    format: (v: number) => `$${Math.round(v)}M`,
+    label: "Client revenue generated",
+    description: "Revenue unlocked for clients across our engagements.",
+  },
+  {
+    from: 0,
+    to: 50,
+    format: (v: number) => `${Math.round(v)}+`,
+    label: "Enterprise brands",
+    description: "Global enterprises we deliver for today.",
+  },
+  {
+    from: 0,
+    to: 200,
+    format: (v: number) => `${Math.round(v)}+`,
+    label: "Success stories",
+    description: "Production AI and data solutions shipped to date.",
+  },
+  {
+    from: 0,
+    to: 40,
+    format: (v: number) => `${Math.round(v)}%`,
+    label: "Average ROI improvement",
+    description: "Typical gain in operational efficiency post-engagement.",
+  },
+];
 
 export const Statistics: React.FC = () => {
-  const stats = [
-    {
-      number: "50+",
-      label: "Enterprise brands",
-      description: "Global enterprises we deliver for today.",
-    },
-    {
-      number: "40%",
-      label: "Average ROI improvement",
-      description: "Typical gain in operational efficiency post-engagement.",
-    },
-    {
-      number: "200+",
-      label: "Success stories",
-      description: "Production AI and data solutions shipped to date.",
-    },
-    {
-      number: "24/7",
-      label: "Global support",
-      description: "Follow-the-sun coverage across four offices.",
-    },
-  ];
-
   return (
     <section className="w-full border-b border-slate-200 bg-[#0B1220]">
       <div className="max-w-[1400px] mx-auto px-6 lg:px-10 py-20 lg:py-28">
@@ -50,7 +65,12 @@ export const Statistics: React.FC = () => {
                          lg:[&:nth-child(4)]:border-r-0"
             >
               <dd className="tnum text-5xl lg:text-[3.5rem] leading-none font-semibold text-white">
-                {stat.number}
+                <CountUp
+                  from={stat.from}
+                  to={stat.to}
+                  format={stat.format}
+                  duration={2200}
+                />
               </dd>
               <dt className="text-base font-medium text-white mt-4">
                 {stat.label}

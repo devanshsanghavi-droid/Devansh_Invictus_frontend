@@ -73,7 +73,7 @@ const Finance: React.FC = () => {
                 Transform your finance operations with advanced analytics, automated compliance, and real-time risk management.
               </div>
               <div className="grid grid-cols-1 gap-4 w-full mt-auto">
-                <div className="bg-[#181515]/90 rounded-2xl p-4 text-slate-800 text-base font-medium text-center min-w-[240px] mx-auto">
+                <div className="bg-[#181515]/90 rounded-2xl p-4 text-white/90 text-base font-medium text-center min-w-[240px] mx-auto">
                   Risk Analytics, Compliance & Revenue Optimization
                 </div>
               </div>
