@@ -1,0 +1,136 @@
+.ecommerce-article {
+  font-family: 'Inter', Arial, sans-serif;
+  line-height: 1.8;
+  font-size: 1.05rem;
+  color: #2d2d2d;
+  max-width: 100%;
+  margin: 0;
+  padding: 2.5rem 0;
+  background-color: #fff;
+}
+
+/* Headings */
+.ecommerce-article h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 2rem 0 1.25rem;
+  color: #111;
+  border-bottom: 2px solid #e5e7eb;
+  padding-bottom: 0.5rem;
+}
+
+.ecommerce-article h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 2rem 0 1rem;
+  color: #1f2937;
+  border-left: 4px solid #4f46e5;
+  padding-left: 0.75rem;
+}
+
+/* Paragraphs */
+.ecommerce-article p {
+  margin-bottom: 1.2rem;
+  color: #374151;
+}
+
+/* Lists */
+.ecommerce-article ul {
+  margin: 0 0 1.5rem 1.5rem;
+  list-style-type: disc;
+  padding-left: 1rem;
+}
+
+.ecommerce-article li {
+  margin-bottom: 0.7rem;
+  line-height: 1.6;
+}
+
+/* Blockquote */
+.ecommerce-article blockquote {
+  margin: 1.5rem 0;
+  padding: 1rem 1.25rem;
+  border-left: 4px solid #6366f1;
+  background: #f9fafb;
+  font-style: italic;
+  color: #374151;
+  border-radius: 0.375rem;
+}
+
+/* Tables */
+.ecommerce-article table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.75rem 0;
+  font-size: 0.975rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.ecommerce-article th,
+.ecommerce-article td {
+  border: 1px solid #e5e7eb;
+  padding: 12px 16px;
+  text-align: left;
+}
+
+.ecommerce-article th {
+  background-color: #f3f4f6;
+  font-weight: 600;
+  color: #111;
+}
+
+.ecommerce-article tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.ecommerce-article tr:hover {
+  background-color: #eef2ff;
+  transition: background-color 0.2s ease-in-out;
+}
+
+ .formula {
+  background: #f9fafb;
+  border-left: 4px solid #4f46e5;
+  padding: 0.75rem 1rem;
+  margin: 1rem 0;
+  font-family: 'Courier New', monospace;
+  font-size: 0.95rem;
+  color: #1f2937;
+  white-space: pre-wrap;
+}
+
+
+
+/* CTA Container */
+.cta-container {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+/* CTA Button */
+.cta-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 2.25rem;
+  background: linear-gradient(to right, #7e22ce, #2563eb);
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.125rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 10px 20px -5px rgba(0,0,0,0.15);
+  text-decoration: none;
+  transition: all 0.25s ease;
+  transform: scale(1);
+}
+
+.cta-button:hover {
+  background: linear-gradient(to right, #6b21a8, #1d4ed8);
+  transform: scale(1.06);
+  box-shadow: 0 15px 30px -5px rgba(0,0,0,0.2);
+}
+
+.cta-button span {
+  margin-left: 0.5rem;
+}

@@ -1,0 +1,326 @@
+import React, { useState, useEffect } from "react";
+import { useParams, useNavigate } from "react-router-dom";
+import Seo from "@/components/Seo";
+import Navbar from "@/components/layout/Navbar";
+import AnimatedBackground from "@/components/ui/AnimatedBackground";
+import CustomButton from "@/components/ui/CustomButton";
+import { BlogPost } from "@/services/blogService";
+
+const BlogDetail: React.FC = () => {
+    const { slug } = useParams<{ slug: string }>();
+    const navigate = useNavigate();
+    const [showContactForm, setShowContactForm] = useState(false);
+    const [blog, setBlog] = useState<BlogPost | null>(null);
+    const [loading, setLoading] = useState(true);
+    const [error, setError] = useState<string | null>(null);
+
+    // Array of 19 blog images to rotate through (same as BlogInsights)
+    const BLOG_IMAGES = [
+        'https://assets.channeliq.ai/trilio-landing/Blogs/BlogSample1.jpg',
+        'https://assets.channeliq.ai/trilio-landing/Blogs/BlogSample2.jpg',
+        'https://assets.channeliq.ai/trilio-landing/Blogs/BlogSample3.jpg',
+        'https://assets.channeliq.ai/trilio-landing/Blogs/BlogSample4.jpg',
+        'https://assets.channeliq.ai/trilio-landing/Blogs/BlogSample5.jpg',
+        'https://assets.channeliq.ai/trilio-landing/Blogs/BlogSample6.jpg',
+        'https://assets.channeliq.ai/trilio-landing/Blogs/BlogSample7.jpg',
+        'https://assets.channeliq.ai/trilio-landing/Blogs/BlogSample8.jpg',
+        'https://assets.channeliq.ai/trilio-landing/Blogs/BlogSample9.jpg',
+        'https://assets.channeliq.ai/trilio-landing/Blogs/BlogSample10.jpg',
+        'https://assets.channeliq.ai/trilio-landing/Blogs/BlogSample11.jpg',
+        'https://assets.channeliq.ai/trilio-landing/Blogs/BlogSample12.jpg',
+        'https://assets.channeliq.ai/trilio-landing/Blogs/BlogSample13.jpg',
+        'https://assets.channeliq.ai/trilio-landing/Blogs/BlogSample14.jpg',
+        'https://assets.channeliq.ai/trilio-landing/Blogs/BlogSample15.jpg',
+        'https://assets.channeliq.ai/trilio-landing/Blogs/BlogSample16.jpg',
+        'https://assets.channeliq.ai/trilio-landing/Blogs/BlogSample17.jpg',
+        'https://assets.channeliq.ai/trilio-landing/Blogs/BlogSample18.jpg',
+        'https://assets.channeliq.ai/trilio-landing/Blogs/BlogSample19.jpg',
+    ];
+
+    // Helper function to get rotated image based on blog ID
+    const getRotatedImage = (id: number) => {
+        return BLOG_IMAGES[id % BLOG_IMAGES.length];
+    };
+
+    useEffect(() => {
+        const fetchBlogDetail = async () => {
+            if (!slug) {
+                setError("No blog slug provided");
+                setLoading(false);
+                return;
+            }
+
+            try {
+                setLoading(true);
+                // Use environment variable or fallback to staging API
+                const API_BASE_URL = import.meta.env.DEV
+                    ? '/api/auth/v1'  // Development: use Vite proxy
+                    : (import.meta.env.VITE_API_BASE_URL || 'https://staging.trilio.ai/api/auth/v1'); // Production: full URL
+
+                // Fetch blog detail from API
+                const response = await fetch(`${API_BASE_URL}/blogs/${slug}`);
+
+                if (!response.ok) {
+                    if (response.status === 404) {
+                        setError("Blog not found");
+                    } else {
+                        throw new Error(`HTTP error! status: ${response.status}`);
+                    }
+                    setLoading(false);
+                    return;
+                }
+
+                const data = await response.json();
+
+                if (data.status_code !== "ELE_OK") {
+                    throw new Error(data.message || "Failed to fetch blog");
+                }
+
+                // The API returns the blog directly in data.data
+                setBlog(data.data);
+                setError(null);
+            } catch (err) {
+                console.error("Error fetching blog:", err);
+                setError("Failed to load blog post. Please try again later.");
+            } finally {
+                setLoading(false);
+            }
+        };
+
+        fetchBlogDetail();
+    }, [slug]);
+
+    if (loading) {
+        return (
+            <div className="relative min-h-screen bg-gradient-to-br from-[#7F1D1D] via-[#A33E2F]/10 to-[#FEE2E2]/10 flex flex-col">
+                <div className="relative z-20">
+                    <Navbar
+                        showContactForm={showContactForm}
+                        setShowContactForm={setShowContactForm}
+                        logoSize="sm"
+                    />
+                </div>
+                <AnimatedBackground />
+                <div className="flex-1 flex items-center justify-center">
+                    <div className="text-center">
+                        <div className="inline-block animate-spin rounded-full h-12 w-12 border-b-2 border-white"></div>
+                        <p className="text-white mt-4 font-['DM_Sans']">
+                            Loading blog post...
+                        </p>
+                    </div>
+                </div>
+            </div>
+        );
+    }
+
+    if (error || !blog) {
+        return (
+            <div className="relative min-h-screen bg-gradient-to-br from-[#7F1D1D] via-[#A33E2F]/10 to-[#FEE2E2]/10 flex flex-col">
+                <div className="relative z-20">
+                    <Navbar
+                        showContactForm={showContactForm}
+                        setShowContactForm={setShowContactForm}
+                        logoSize="sm"
+                    />
+                </div>
+                <AnimatedBackground />
+                <div className="flex-1 flex items-center justify-center">
+                    <div className="text-center max-w-md mx-auto px-4">
+                        <div className="bg-red-500/10 border border-red-500/50 rounded-lg p-6">
+                            <p className="text-white font-['DM_Sans'] mb-4">
+                                {error || "Blog not found"}
+                            </p>
+                            <CustomButton
+                                onClick={() => navigate("/blog-insights")}
+                                variant="primary"
+                            >
+                                Back to Blog Insights
+                            </CustomButton>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        );
+    }
+
+    return (
+        <div className="relative min-h-screen bg-gradient-to-br from-[#7F1D1D] via-[#A33E2F]/10 to-[#FEE2E2]/10 flex flex-col">
+            {/* SEO Meta Tags */}
+            {blog && (
+                <Seo
+                    title={`${blog.title} | Invictus Data Blog`}
+                    description={blog.summary ? blog.summary.substring(0, 160) : blog.title}
+                    canonical={`/blog/${blog.slug}`}
+                    image={getRotatedImage(blog.id)}
+                    type="article"
+                />
+            )}
+
+            <div className="relative z-20">
+                <Navbar
+                    showContactForm={showContactForm}
+                    setShowContactForm={setShowContactForm}
+                    logoSize="sm"
+                />
+            </div>
+            <AnimatedBackground />
+
+            {/* Hero Section with Background Image */}
+            <div className="relative w-full h-screen min-h-[600px] overflow-hidden">
+                {/* Background Image */}
+                {blog && (
+                    <div
+                        className="absolute inset-0 bg-cover bg-center"
+                        style={{
+                            backgroundImage: `url(${getRotatedImage(blog.id)})`,
+                        }}
+                    >
+                        {/* Dark Overlay */}
+                        <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-black/70"></div>
+                    </div>
+                )}
+
+                {/* Hero Content */}
+                <div className="relative z-10 h-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col justify-end pb-16">
+                    {/* Blog Title */}
+                    <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 font-['Lexend'] leading-tight">
+                        {blog?.title}
+                    </h1>
+
+                    {/* Metadata */}
+                    <div className="flex flex-wrap items-center gap-4 sm:gap-6 text-white/90 font-['DM_Sans']">
+                        <div className="flex items-center gap-2">
+                            <span className="text-sm sm:text-base">by</span>
+                            <span className="font-semibold text-white text-sm sm:text-base">{blog?.author}</span>
+                        </div>
+
+                        <div className="flex items-center gap-2">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="16"
+                                height="16"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                strokeWidth="2"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                className="text-white/70"
+                            >
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <polyline points="12 6 12 12 16 14"></polyline>
+                            </svg>
+                            <span className="text-sm sm:text-base">5 min read</span>
+                        </div>
+
+                        {blog?.published_at && (
+                            <div className="flex items-center gap-2">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="16"
+                                    height="16"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    strokeWidth="2"
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    className="text-white/70"
+                                >
+                                    <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                                    <line x1="16" y1="2" x2="16" y2="6"></line>
+                                    <line x1="8" y1="2" x2="8" y2="6"></line>
+                                    <line x1="3" y1="10" x2="21" y2="10"></line>
+                                </svg>
+                                <span className="text-sm sm:text-base">
+                                    {new Date(blog.published_at).toLocaleDateString("en-US", {
+                                        year: "numeric",
+                                        month: "short",
+                                        day: "numeric",
+                                    })}
+                                </span>
+                            </div>
+                        )}
+                    </div>
+                </div>
+            </div>
+
+            {/* Blog Content */}
+            <div className="relative z-10 bg-white">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+                    {/* Blog Summary */}
+                    {blog?.summary && (
+                        <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12 mb-8">
+                            <div className="flex items-center gap-3 mb-6">
+                                <div className="w-1 h-8 bg-gradient-to-b from-indigo-600 to-blue-600 rounded-full"></div>
+                                <h2 className="text-3xl md:text-4xl font-bold text-gray-900 font-['Inter']">
+                                    Summary
+                                </h2>
+                            </div>
+                            <p className="text-gray-700 text-lg md:text-xl font-['Inter'] leading-relaxed">
+                                {blog.summary}
+                            </p>
+                        </div>
+                    )}
+
+                    {/* Blog Content */}
+                    {blog?.content_html && (
+                        <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12">
+                            <div
+                                className="prose prose-lg max-w-none font-['Inter']
+                            [&>*]:text-gray-700
+                            
+                            prose-headings:font-['Inter'] prose-headings:font-bold prose-headings:text-gray-900
+                            
+                            prose-h2:text-[2rem] prose-h2:font-bold prose-h2:mt-8 prose-h2:mb-5 prose-h2:text-gray-900 
+                            prose-h2:border-b-2 prose-h2:border-gray-200 prose-h2:pb-2
+                            
+                            prose-h3:text-2xl prose-h3:font-semibold prose-h3:mt-8 prose-h3:mb-4 prose-h3:text-gray-800
+                            prose-h3:border-l-4 prose-h3:border-indigo-600 prose-h3:pl-3
+                            
+                            prose-h4:text-xl prose-h4:font-semibold prose-h4:mt-6 prose-h4:mb-3 prose-h4:text-gray-800
+                            
+                            prose-p:text-gray-700 prose-p:leading-[1.8] prose-p:mb-5 prose-p:text-[1.05rem]
+                            
+                            prose-a:text-indigo-600 prose-a:no-underline prose-a:font-semibold hover:prose-a:text-indigo-800 prose-a:transition-colors
+                            
+                            prose-strong:text-gray-900 prose-strong:font-bold
+                            
+                            prose-ul:my-6 prose-ul:ml-6 prose-ul:list-disc prose-ul:pl-4
+                            prose-ol:my-6 prose-ol:ml-6 prose-ol:list-decimal prose-ol:pl-4
+                            prose-li:mb-3 prose-li:leading-[1.6] prose-li:text-gray-700
+                            
+                            prose-blockquote:my-6 prose-blockquote:py-4 prose-blockquote:px-5 
+                            prose-blockquote:border-l-4 prose-blockquote:border-indigo-500 
+                            prose-blockquote:bg-gray-50 prose-blockquote:rounded-md
+                            prose-blockquote:italic prose-blockquote:text-gray-700 prose-blockquote:not-italic
+                            
+                            prose-code:text-gray-800 prose-code:bg-gray-100 prose-code:px-2 prose-code:py-1 
+                            prose-code:rounded prose-code:font-mono prose-code:text-[0.95rem]
+                            prose-code:border prose-code:border-gray-200
+                            
+                            prose-pre:bg-gray-50 prose-pre:border prose-pre:border-gray-200 
+                            prose-pre:rounded-md prose-pre:p-4 prose-pre:my-4
+                            prose-pre:font-['Courier_New'] prose-pre:text-[0.95rem] prose-pre:text-gray-800
+                            
+                            prose-table:w-full prose-table:border-collapse prose-table:my-7 
+                            prose-table:rounded-lg prose-table:overflow-hidden prose-table:text-[0.975rem]
+                            
+                            prose-th:border prose-th:border-gray-200 prose-th:bg-gray-100 
+                            prose-th:px-4 prose-th:py-3 prose-th:text-left prose-th:font-semibold prose-th:text-gray-900
+                            
+                            prose-td:border prose-td:border-gray-200 prose-td:px-4 prose-td:py-3 prose-td:text-left
+                            
+                            prose-tr:even:bg-gray-50 hover:prose-tr:bg-indigo-50 prose-tr:transition-colors
+                            
+                            prose-img:rounded-xl prose-img:shadow-lg prose-img:my-8"
+                                dangerouslySetInnerHTML={{ __html: blog.content_html }}
+                            />
+                        </div>
+                    )}
+                </div>
+            </div>
+            );
+};
+
+            export default BlogDetail;
