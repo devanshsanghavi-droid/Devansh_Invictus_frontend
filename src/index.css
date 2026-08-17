@@ -60,6 +60,25 @@
 .tnum { font-variant-numeric: tabular-nums; letter-spacing: -0.03em; }
 
 /*
+ * Hero console chart bars. Grow once on mount, staggered, so the panel reads as
+ * a product doing something rather than a static screenshot. Scales from the
+ * baseline, so the bars rise out of the axis.
+ */
+@keyframes console-bar-grow {
+  from { transform: scaleY(0.04); opacity: 0; }
+  to   { transform: scaleY(1); opacity: 1; }
+}
+
+.console-bar {
+  transform-origin: bottom;
+  animation: console-bar-grow 0.9s cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .console-bar { animation: none; }
+}
+
+/*
  * Client marquee. A deliberate exception to the site's near-zero-motion rule,
  * requested explicitly, and the continuous scroll IS the component.
  * Edges fade out so names don't clip against the container.

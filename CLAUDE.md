@@ -174,6 +174,10 @@ npm run build && npx wrangler deploy --dry-run
   any public launch, swap in the real client list or change the label. The only clients
   the site has ever named publicly are Votorantim Group, PwC Brazil and Tegma Logística
   (see the legacy `ClientShowcase.tsx`). Never pad that list with invented names.
+- **The hero console is placeholder art.** `sections/HeroConsole.tsx` is a stylised
+  analytics panel drawn in CSS/SVG, not a screenshot. Bars and percentages are
+  illustrative; the only sourced number is $74M. If you replace it with a real product
+  screenshot, confirm it contains no live client data.
 - **Solution page imagery is placeholder.** All 21 AI-generated `channeliq.ai` images were
   replaced with four real photographs in `public/placeholders/`, cycled across pages, so
   the same photo repeats on several pages until real art arrives.
